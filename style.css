@@ -24,41 +24,41 @@ body{
 
 
 div{
-	outline:1px dashed red;
+	/*outline:1px dashed red;*/
 }
 
 .container{
 	/*padding-top:1px;*/
-	/*outline:1px dashed magenta;*/
+	outline:1px dashed magenta;
 }
 
 .header{
 	min-height:100px;/*delete*/
-	outline:1px dashed red;
+	/*outline:1px dashed red;*/
 	padding-top:10px;
 }
 
 .logo{
 	background-image:url(images/logo.jpg);
-	outline:1px dashed black;
+	/*outline:1px dashed black;*/
 	min-height:100px;
 }
 
 /************************** START MENU ***************************/
 .menu{
-	outline:1px dashed darkblue;
+	/*outline:1px dashed darkblue;*/
 	height:50px;
 }
 /************************* END MENU *********************/
 
 .content{
 	min-height:500px;/*delete*/
-	outline:1px dashed orange;
+	/*outline:1px dashed orange;*/
 }
 
 .footer{
 	min-height:200px;/*delete*/
-	outline:1px dashed blue;/*delete*/
+	/*outline:1px dashed blue;/*delete*/
 	/*background:transparent  url('footer_background.png') repeat-x 50% 0;
 	background-attachment:fixed;
 	background-position:center bottom;*/
