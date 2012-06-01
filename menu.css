@@ -25,7 +25,6 @@ a{
 	font-family:Georgia, "Times New Roman", Times, serif;
 	padding: 6px 15px;
 	font-weight:bold;
-	text-shadow:1px 1px 1px #aaa;
 }
 
 li :hover{
@@ -61,5 +60,4 @@ li li a{
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	padding: 6px 15px;
 	font-weight:bold;
-	text-shadow:1px 1px 1px #aaa;
 }

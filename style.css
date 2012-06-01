@@ -3,11 +3,25 @@
 
 
 body{
-	background: -webkit-linear-gradient(top, #2d676b, #ffffff) fixed;
+	background: -webkit-linear-gradient(top, #2f7e9c, #062e41) fixed;
 	background: -moz-linear-gradient(top, #2f7e9c, #062e41) fixed;
 	background: -ms-linear-gradient(top, #2f7e9c, #062e41) fixed;
 	background: -o-linear-gradient(top, #2f7e9c, #062e41) fixed;
 }
+
+.backimage{
+	position : fixed;
+	left     : 0;
+	right    : 0;
+	top      : 0;
+	bottom   : 0;
+	z-index:-1;
+	background-image    : url('images/backg.jpg');
+	background-repeat   : no-repeat;
+	background-size     : cover;
+	background-position : center top;
+}
+
 
 div{
 	outline:1px dashed red;
@@ -25,8 +39,9 @@ div{
 }
 
 .logo{
-	min-height:50px;
+	background-image:url(images/logo.jpg);
 	outline:1px dashed black;
+	min-height:100px;
 }
 
 /************************** START MENU ***************************/
@@ -42,11 +57,14 @@ div{
 }
 
 .footer{
-	min-height:50px;/*delete*/
+	min-height:200px;/*delete*/
 	outline:1px dashed blue;/*delete*/
 	/*background:transparent  url('footer_background.png') repeat-x 50% 0;
-/*	background-attachment:fixed;
+	background-attachment:fixed;
 	background-position:center bottom;*/
+	background-image : url(images/footer_background1.png);
+	background-repeat:repeat-x;
+	opacity: 0.8;
 }
 
 .footer-content{
