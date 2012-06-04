@@ -6,8 +6,10 @@
 nav {
 	box-shadow: 1px 1px 5px #000;
 }
+
 ul{
 	list-style-type: none;
+	position:relative;
 	/*outline: 1px dashed red ;*/
 
 }
