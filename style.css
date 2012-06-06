@@ -77,11 +77,12 @@ ul li{
 
 li a{
 	display:block;
-	padding:4px 9px;	
+	padding:6px 20px;	
 }
 
 li a:hover{
-	background-image:url('images/menu_item_background.png') no-repeat 200% 200%;
+	background: no-repeat   url('images/menu_item_background.png');
+	
 /*	background-repeat:no-repeat;*/
 }
 /************************* END MENU *********************/
@@ -92,14 +93,18 @@ li a:hover{
 }
 
 .footer{
-	min-height:200px;/*delete*/
+	min-height:150px;/*delete*/
 	/*outline:1px dashed blue;/*delete*/
 	/*background:transparent  url('footer_background.png') repeat-x 50% 0;
 	background-attachment:fixed;
 	background-position:center bottom;*/
-	background-image : url(images/footer_background1.png);
-	background-repeat:repeat-x;
-	opacity: 0.8;
+	
+	position:fixed;
+	left:0;
+	bottom:0;
+	width:100%;
+	background :transparent url('images/footer_background.png') repeat-x 50% 0;
+/*	background-repeat:repeat-x;*/
 }
 
 .footer-content{
