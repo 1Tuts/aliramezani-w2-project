@@ -58,9 +58,13 @@ div{
 }
 
 /************************** START MENU ***************************/
-.menu{
+/*.menu{
 	outline:1px dashed darkblue;
 	height:50px;
+}*/
+
+.menu{
+	direction: rtl;
 }
 
 ul{
@@ -77,8 +81,8 @@ li a{
 }
 
 li a:hover{
-	background-image:url('images/menu_item_background.png');
-	background-repeat:no-repeat;
+	background-image:url('images/menu_item_background.png') no-repeat 200% 200%;
+/*	background-repeat:no-repeat;*/
 }
 /************************* END MENU *********************/
 
