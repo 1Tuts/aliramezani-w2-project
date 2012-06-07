@@ -7,27 +7,12 @@ body{
 	background: -moz-linear-gradient(top, #2f7e9c, #ffffff) fixed;
 	background: -ms-linear-gradient(top, #2f7e9c, #062e41) fixed;
 	background: -o-linear-gradient(top, #2f7e9c, #062e41) fixed;
-/*	direction:rtl;*/
 }
 
 a{
 	text-decoration:none;
 	color:#fff;
 }
-
-/*.backimage{
-	position : fixed;
-	left     : 0;
-	right    : 0;
-	top      : 0;
-	bottom   : 0;
-	z-index:-1;
-	background-image    : url('images/backg.jpg');
-	background-repeat   : no-repeat;
-	background-size     : cover;
-	background-position : center top;
-}*/
-
 
 div{
 	/*outline:1px dashed red;*/
@@ -58,17 +43,13 @@ div{
 }
 
 /************************** START MENU ***************************/
-/*.menu{
-	outline:1px dashed darkblue;
-	height:50px;
-}*/
-
 .menu{
-	direction: rtl;
+	/*direction: rtl;*/
 }
 
 ul{
 	list-style-type:none;
+/*	direction:rtl;*/
 }
 
 ul li{
@@ -82,8 +63,6 @@ li a{
 
 li a:hover{
 	background: no-repeat   url('images/menu_item_background.png');
-	
-/*	background-repeat:no-repeat;*/
 }
 /************************* END MENU *********************/
 
@@ -91,28 +70,25 @@ li a:hover{
 	min-height:500px;/*delete*/
 	/*outline:1px dashed orange;*/
 }
-
-.footer{
-	min-height:150px;/*delete*/
-	/*outline:1px dashed blue;/*delete*/
-	/*background:transparent  url('footer_background.png') repeat-x 50% 0;
-	background-attachment:fixed;
-	background-position:center bottom;*/
-	
-	position:fixed;
+/*************************** START FOOTER **************************/
+.bg-footer{
+	min-height:120px;/*delete*/
+	outline:1px dashed blue;/*delete*/
+	position:absolute;
 	left:0;
 	bottom:0;
 	width:100%;
 	background :transparent url('images/footer_background.png') repeat-x 50% 0;
-/*	background-repeat:repeat-x;*/
 }
 
 .footer-content{
-	width:950px;
-	margin:0 auto;
-	padding-top:5px;
+	margin:85px auto 0;
+	padding-top:0px;
+	outline:1px dashed red;
+
 }
 
+/*************************** END FOOTER **************************/
 /************************* contact ******** somaye *************/
 
 .contact{
