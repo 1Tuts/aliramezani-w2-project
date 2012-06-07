@@ -1,13 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
 
-
 body{
 	position:fixed;
 	left:0;
 	right:0;
 	top:0;
 	bottom:0;
+	z-index:-1;
 	background:transparent url('images/background_1.png') repeat-x;
 	background-size:6%;
 	font-family:Tahoma;
@@ -18,25 +18,9 @@ a{
 	color:#fff;
 }
 
-div{
-	/*outline:1px dashed red;*/
-}
-
-.container{
-	/*padding-top:1px;*/
-/*	outline:1px dashed magenta;*/
-}
-
-.header{
-	min-height:100px;/*delete*/
-	outline:1px dashed red;
-	padding-top:10px;
-}
-
 .logo{
 	background-image:url(images/logo.jpg);
 	background-repeat:no-repeat;
-	outline:1px dashed black;
 	min-height:90px;
 }
 
@@ -45,17 +29,15 @@ div{
 	width:120px;
 	text-indent:-99em;
 }
-
 /************************** START MENU ***************************/
 .menu{
 	direction: rtl;
-/*	outline:1px dashed green;*/
 	margin-top:10px;
 }
 
 ul{
 	list-style-type:none;
-/*	direction:rtl;*/
+	direction:rtl;
 }
 
 li{
@@ -70,27 +52,24 @@ li:first-child{
 
 li a{
 	display:block;
-	padding:0px 15px 25px;
-	line-height:17px;
+	padding:2px 15px 25px;
 }
 
 li a:hover{
-	background-position:0 0;
 	background:transparent no-repeat   url('images/menu_item_background.png');
-/*	background-position:center;*/
 }
 
-
+li a:active{
+		
+}
 /************************* END MENU *********************/
 
 .content{
-	min-height:500px;/*delete*/
-	/*outline:1px dashed orange;*/
+/*	min-height:500px;/*delete*/
 }
 /*************************** START FOOTER **************************/
 .bg-footer{
 	min-height:120px;/*delete*/
-/*	outline:1px dashed blue;/*delete*/
 	position:fixed;
 	left:0;
 	bottom:0;
@@ -101,11 +80,22 @@ li a:hover{
 .footer-content{
 	margin:85px auto 0;
 	padding-top:0px;
-/*	outline:1px dashed red;*/
-
 }
-
 /*************************** END FOOTER **************************/
+/************************* START IFRAME *************************/
+.frame{
+	width:200px;
+	height:200px;
+	background-color:black;
+	border:none;
+	opacity:.2;
+	left:50px;
+	visibility:hidden;
+}
+/************************* END IFRAME *************************/
+li a:active{
+	
+}
 /************************* contact ******** somaye *************/
 
 .contact{
@@ -113,7 +103,6 @@ li a:hover{
 	background-color:#111;
 	opacity:0.8;
 	margin:0 auto;
-	z-index:2;
 	border-radius:5px;
 }
 
