@@ -3,10 +3,13 @@
 
 
 body{
-	background: -webkit-linear-gradient(top, #2f7e9c, #ffffff) fixed;
-	background: -moz-linear-gradient(top, #2f7e9c, #ffffff) fixed;
-	background: -ms-linear-gradient(top, #2f7e9c, #062e41) fixed;
-	background: -o-linear-gradient(top, #2f7e9c, #062e41) fixed;
+	position:fixed;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	background:transparent url('images/background_1.png') repeat-x;
+	background-size:6%;
 }
 
 a{
@@ -20,19 +23,19 @@ div{
 
 .container{
 	/*padding-top:1px;*/
-	outline:1px dashed magenta;
+/*	outline:1px dashed magenta;*/
 }
 
 .header{
 	min-height:100px;/*delete*/
-	outline:1px dashed red;
+/*	outline:1px dashed red;*/
 	padding-top:10px;
 }
 
 .logo{
 	background-image:url(images/logo.jpg);
 	background-repeat:no-repeat;
-	outline:1px dashed black;
+/*	outline:1px dashed black;*/
 	min-height:90px;
 }
 
@@ -73,8 +76,8 @@ li a:hover{
 /*************************** START FOOTER **************************/
 .bg-footer{
 	min-height:120px;/*delete*/
-	outline:1px dashed blue;/*delete*/
-	position:absolute;
+/*	outline:1px dashed blue;/*delete*/
+	position:fixed;
 	left:0;
 	bottom:0;
 	width:100%;
@@ -84,7 +87,7 @@ li a:hover{
 .footer-content{
 	margin:85px auto 0;
 	padding-top:0px;
-	outline:1px dashed red;
+/*	outline:1px dashed red;*/
 
 }
 
