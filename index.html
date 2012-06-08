@@ -10,15 +10,25 @@
 <!--[if IE]>
 		<script type="text/javascript" src="js/html5.js"></script>
 	<![endif]-->
+	
+<script type="text/javascript">
+
+function displayResult()
+{
+	document.getElementById('iframe-home').style.visibility='visible';
+	document.getElementById('header').style.opacity=0.2;
+}
+
+</script>
 </head>
 
 <body>
 
 <section class="container">
-	<header class="header cover">
+	<header class="header cover" id="header">
 		<nav class="menu right f2">
 		<ul>
-			<li><a href="#" class="trg">صفحه اصلی</a></li>
+			<li><a href="#" onClick="displayResult()">صفحه اصلی</a></li>
 			<li><a href="#">درباره دکتر</a></li>
 			<li><a href="#">بهداشت دهان و دندان</a>
 			<!--	<ul>
@@ -43,7 +53,9 @@
 	<section class="content">
 	</section>
 </section>
-<iframe class="frame" name="frame-home"></iframe>
+<div class="iframe">
+	<iframe class="frame" id="iframe-home"></iframe>
+</div>
 <footer class="bg-footer">
 	<div class="footer-content w24 cover">
 		<nav class="footer-menu right">footer-menu............................................</nav>
