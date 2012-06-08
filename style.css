@@ -81,6 +81,12 @@ li a:hover{
 	margin:85px auto 0;
 	padding-top:0px;
 }
+
+.footer-logo{
+	background-image:url('images/footer_logo.png');
+	background-repeat:no-repeat;
+	min-height:100px;
+}
 /*************************** END FOOTER **************************/
 /************************* START IFRAME *************************/
 .iframe{
