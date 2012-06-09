@@ -11,6 +11,7 @@ body{
 	background:transparent url('images/background_1.png') repeat-x;
 	background-size:6%;
 	font-family:Tahoma;
+	direction:rtl;
 }
 
 a{
@@ -18,9 +19,9 @@ a{
 	color:#fff;
 }
 
-/*.header:hover{
+.header:hover{
 	opacity:1;
-}*/
+}/*kar nemikonad*/
 
 .logo{
 	background-image:url(images/logo.jpg);
@@ -31,17 +32,16 @@ a{
 .logo h1{
 	overflow:hidden;
 	width:120px;
+	direction:ltr;
 	text-indent:-99em;
 }
 /************************** START MENU ***************************/
 .menu{
-	direction: rtl;
 	margin-top:25px;
 }
 
 .menu ul{
 	list-style-type:none;
-	direction:rtl;
 }
 
 .menu li{
@@ -63,13 +63,9 @@ a{
 	background:transparent no-repeat   url('images/menu_item_background.png');
 }
 /************************* END MENU *********************/
-
-.content{
-/*	min-height:500px;/*delete*/
-}
 /*************************** START FOOTER **************************/
 .bg-footer{
-	min-height:120px;/*delete*/
+	height:140px;/*delete*/
 	position:fixed;
 	left:0;
 	bottom:0;
@@ -78,22 +74,19 @@ a{
 }
 
 .footer-content{
-	margin:85px auto 0;
-	padding-top:0px;
+	margin:50px auto 0;
 }
 
 .footer-logo{
-	background-image:url('images/footer_logo.png');
+	background:url('images/logo.jpg');
 	background-repeat:no-repeat;
-	min-height:100px;
+	min-height:90px;
 }
 /*************************** END FOOTER **************************/
 /***************************START FOOTER MENU **************************/
 
 .footer-menu{
-	direction: rtl;
 	margin-top:50px;
-	margin-right:120px; 
 }
 
 .footer-menu ul{
@@ -120,8 +113,8 @@ a{
 	color:#999;
 }
 /*************************** END FOOTER MENU **************************/
-/************************* START IFRAME *************************/
-.iframe{
+/************************* START WINDOW *************************/
+.window{
 	width:855px;
 	height:40px;
 	margin:160px auto;
@@ -132,15 +125,6 @@ a{
 	-webkit-transition:all 1.5s; /* Safari and Chrome */
 }
 
-/*.close{
-	width:15px;
-	height:15px;
-	background-color:blue;
-	float:right;
-/*	visibility:hidden;*/
-/*}*/
-
-/*p.close { position: absolute; top: 13px; right: 13px; float: left; padding: 0; }*/
 p.close a 
 { 
 /*	overflow: hidden;*/
@@ -157,18 +141,7 @@ p.close a:hover
 	background-position: 0 -15px;
 	cursor:pointer; 
 }
-/*.frame{
-	width:450px;
-	/*min-height:30px;*/
-	/*border:none;
-	/*-webkit-transform:height;*/
-
-/*}*/
-
-/*.frame p{
-	color:red;
-}*/
-/************************* END IFRAME *************************/
+/************************* END WINDOW *************************/
 
 /************************* contact ******** somaye *************/
 

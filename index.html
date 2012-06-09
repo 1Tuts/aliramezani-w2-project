@@ -15,17 +15,19 @@
 
 function displayResult()
 {
-	document.getElementById('iframe-home').style.visibility='visible';
-	document.getElementById('iframe-home').style.height='450px';
-	document.getElementById('iframe-home').style.marginTop='10px';
+	document.getElementById('window-home').style.visibility='visible';
+	document.getElementById('window-home').style.height='450px';
+	document.getElementById('window-home').style.marginTop='10px';
 	document.getElementById('header').style.opacity='0.2';
+	document.getElementById('bg-footer').style.opacity='0.2';
 }
 
 function winclose(){
-	document.getElementById('iframe-home').style.visibility='hidden';
-	document.getElementById('iframe-home').style.height='40px';
-	document.getElementById('iframe-home').style.marginTop='160px';
+	document.getElementById('window-home').style.visibility='hidden';
+	document.getElementById('window-home').style.height='40px';
+	document.getElementById('window-home').style.marginTop='160px';
 	document.getElementById('header').style.opacity='1';
+	document.getElementById('bg-footer').style.opacity='1';
 
 }
 
@@ -40,18 +42,8 @@ function winclose(){
 		<ul>
 			<li><a href="#" onClick="displayResult()">صفحه اصلی</a></li>
 			<li><a href="#">درباره دکتر</a></li>
-			<li><a href="#">بهداشت دهان و دندان</a>
-			<!--	<ul>
-					<li><a href="#"></a>بهداشت دهان و دندان</li>
-
-				</ul>-->
-			</li>
-			<li><a href="#">گالری</a>
-<!--            <ul>
-                	<li><a href="#"></a>گالری لبخند</li>
-                    <li><a href="#"></a>تصاویر بیماران</li>
-                </ul>-->
-            </li>
+			<li><a href="#">بهداشت دهان و دندان</a></li>
+			<li><a href="#">گالری</a></li>
 			<li><a href="#">تماس با دکتر</a></li>
 		</ul>
 	</nav>
@@ -61,13 +53,17 @@ function winclose(){
 	</header>
 	<section class="content">
 	</section>
+	
+	<div class="window" id="window-home">
+		<p class="close">
+			<a onClick="winclose()" id="close" title="close"></a>
+		</p>
+	</div>
+
 </section>
-<div class="iframe" id="iframe-home">
-	<p class="close">
-		<a onClick="winclose()" id="close"></a>
-	</p>
-</div>
-<footer class="bg-footer">
+
+
+<footer class="bg-footer" id="bg-footer">
 	<div class="footer-content w24 cover">
 		<nav class="footer-menu right f1 w7">
         	<ul>
@@ -79,7 +75,6 @@ function winclose(){
 		<div class="footer-logo left w3"></div>
 		<div class="copyright mr15"></div>
 	</div>
-<!--	<div class="bg-footer"></div>-->
 </footer>
 </body>
 </html>
