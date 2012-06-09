@@ -147,17 +147,42 @@ a{
 	-webkit-transition:all 1.5s; /* Safari and Chrome */
 }
 
-.frame{
+/*.close{
+	width:15px;
+	height:15px;
+	background-color:blue;
+	float:right;
+/*	visibility:hidden;*/
+/*}*/
+
+/*p.close { position: absolute; top: 13px; right: 13px; float: left; padding: 0; }*/
+p.close a 
+{ 
+/*	overflow: hidden;*/
+	float: right; 
+	width: 15px; 
+	height: 15px; 
+	margin:15px 15px;
+	background:url("images/window_close.png") no-repeat; 
+	/*text-indent: -99em; */
+}
+
+p.close a:hover 
+{ 
+	background-position: 0 -15px;
+	cursor:pointer; 
+}
+/*.frame{
 	width:450px;
 	/*min-height:30px;*/
-	border:none;
+	/*border:none;
 	/*-webkit-transform:height;*/
 
-}
+/*}*/
 
-.frame p{
+/*.frame p{
 	color:red;
-}
+}*/
 /************************* END IFRAME *************************/
 
 /************************* contact ******** somaye *************/
