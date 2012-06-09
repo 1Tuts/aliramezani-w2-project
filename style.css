@@ -65,13 +65,13 @@ a{
 }
 /************************* END MENU *********************/
 /*************************** START home-page **************************/
-.home{
+/* .home{
 	background-image:url('images/newwelcome.png');
 	background-repeat:no-repeat;
 	min-height:586px;
 	min-width:900px;
 	background-position:top;	
-}
+}*/
 /*************************** END home-page **************************/
 /*************************** START FOOTER **************************/
 .bg-footer{
@@ -129,6 +129,7 @@ a{
 .copyright{
 	color:#999;
 	padding-top:30px;
+	direction:ltr;
 }
 /*************************** END FOOTER MENU **************************/
 /************************* START WINDOW *************************/
@@ -164,48 +165,3 @@ p.close a:hover
 		-webkit-transition:opacity 1.5s linear;
 }
 
-/************************* contact ******** somaye *************/
-/*
-.contact{
-	min-height:400px;
-	background-color:#111;
-	opacity:0.8;
-	margin:0 auto;
-	border-radius:5px;
-}
-
-.info{
-	outline: 1px solid red;
-	min-height:400px;
-}
-
-.form{
-	outline: 1px solid blue;
-	min-height:400px;
-}
-
-.info-contact{
-	color : #fff;
-	line-height:5;
-	text-align:center;
-	font-size:24px;
-}
-
-.map{
-	color : #fff;
-	font-size:14px;
-	color:#777;
-	padding-left:10px;
-}
-
-.form{
-	color : #fff;
-}
-
-.form h1{
-	padding-left:20px;
-	color : #fff;
-	line-height:6;
-	font-size:24px;
-	text-align:left;
-}*/
