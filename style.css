@@ -67,6 +67,15 @@ a{
 .content{
 /*	min-height:500px;/*delete*/
 }
+/*************************** START home-page **************************/
+.home{
+	background-image:url('images/newwelcome.png');
+	background-repeat:no-repeat;
+	min-height:586px;
+	min-width:900px;
+	background-position:top;	
+}
+/*************************** END home-page **************************/
 /*************************** START FOOTER **************************/
 .bg-footer{
 	min-height:120px;/*delete*/
@@ -118,6 +127,12 @@ a{
 
 .footer-menu li a:hover{
 	color:#999;
+}
+
+.copyright{
+	color:#dedede;
+	font-family:Verdana, Geneva, sans-serif;
+	padding-top:50px;
 }
 /*************************** END FOOTER MENU **************************/
 /************************* START IFRAME *************************/
