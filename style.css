@@ -39,27 +39,27 @@ a{
 	margin-top:25px;
 }
 
-ul{
+.menu ul{
 	list-style-type:none;
 	direction:rtl;
 }
 
-li{
+.menu li{
 	float:right;
 	background: url('images/seprater-menu.png') 0 10%;
 	background-repeat:no-repeat;
 }
 
-li:last-child{
+.menu li:last-child{
 	background-image:none;
 }
 
-li a{
+.menu li a{
 	display:block;
 	padding:2px 15px 25px;
 }
 
-li a:hover{
+.menu li a:hover{
 	background:transparent no-repeat   url('images/menu_item_background.png');
 }
 /************************* END MENU *********************/
@@ -88,6 +88,38 @@ li a:hover{
 	min-height:100px;
 }
 /*************************** END FOOTER **************************/
+/***************************START FOOTER MENU **************************/
+
+.footer-menu{
+	direction: rtl;
+	margin-top:50px;
+	margin-right:120px; 
+}
+
+.footer-menu ul{
+	list-style-type:none;
+	direction:rtl;
+}
+
+.footer-menu li{
+	float:right;
+	background: url('images/seprater-menu.png') 0 10%;
+	background-repeat:no-repeat;
+}
+
+.footer-menu li:last-child{
+	background-image:none;
+}
+
+.footer-menu li a{
+	display:block;
+	padding:2px 15px 25px;
+}
+
+.footer-menu li a:hover{
+	color:#999;
+}
+/*************************** END FOOTER MENU **************************/
 /************************* START IFRAME *************************/
 .iframe{
 	width:855px;
