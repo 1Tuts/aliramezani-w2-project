@@ -15,17 +15,17 @@
 
 function displayResult()
 {
-	document.getElementById('window-home').style.visibility='visible';
 	document.getElementById('window-home').style.height='450px';
 	document.getElementById('window-home').style.marginTop='10px';
+	document.getElementById('window-home').style.opacity='1';
 	document.getElementById('header').style.opacity='0.2';
 	document.getElementById('bg-footer').style.opacity='0.2';
 }
 
 function winclose(){
-	document.getElementById('window-home').style.visibility='hidden';
 	document.getElementById('window-home').style.height='40px';
 	document.getElementById('window-home').style.marginTop='160px';
+	document.getElementById('window-home').style.opacity='0';
 	document.getElementById('header').style.opacity='1';
 	document.getElementById('bg-footer').style.opacity='1';
 
@@ -38,7 +38,7 @@ function winclose(){
 
 <section class="container">
 
-	<header class="header cover" id="header">
+	<header class="header change-opacity cover" id="header">
 	
 		<nav class="menu right f2">
 			<ul>
@@ -57,9 +57,22 @@ function winclose(){
 	</header>
 	
 	<section class="content">	
-		<div class="window" id="window-home">
+		<div class="window " id="window-home">
 			<p class="close">
-				<a onClick="winclose()" id="close" title="close"></a>
+				<a onClick="winclose()" id="close" title="close">
+				<!--	<div class="w10 left home-left">
+						به وب سایت شخصی دکتر علی رمضانی خوش آمدید .
+امروزه دندان پزشکی فقط در مواقع درد دندان یا عفونت مورد استفاده نیست . دندان پزشکی نوین ارائه خدمات دندان پزشکی با رویکرد زیبائی است. درمان به بهترین نحو زیبائی در بالاترین حد. احترام شایسته، گوش فرادادن به کلیه خواسته های مراجعین در محیطی آرام و صمیمی. رعایت کلیه موارد استریل و کنترل عفونت. بهره گیری از تجهیزات مدرن و تکنولوژی دندان پزشکی زیبائی وبکار گیری عالی ترین مواد دندان پزشکی تولید شده از اصول کاری ماست
+.
+برای تعیین وقت قبلی با مطب دکتر علی رمضانی تماس بگیرید :: --&gt; شماره تلفن رو می نویسیم ........
+		
+					</div>
+					<div class="w10">به وب سایت شخصی دکتر علی رمضانی خوش آمدید .
+امروزه دندان پزشکی فقط در مواقع درد دندان یا عفونت مورد استفاده نیست . دندان پزشکی نوین ارائه خدمات دندان پزشکی با رویکرد زیبائی است. درمان به بهترین نحو زیبائی در بالاترین حد. احترام شایسته، گوش فرادادن به کلیه خواسته های مراجعین در محیطی آرام و صمیمی. رعایت کلیه موارد استریل و کنترل عفونت. بهره گیری از تجهیزات مدرن و تکنولوژی دندان پزشکی زیبائی وبکار گیری عالی ترین مواد دندان پزشکی تولید شده از اصول کاری ماست
+.
+برای تعیین وقت قبلی با مطب دکتر علی رمضانی تماس بگیرید :: --&gt; شماره تلفن رو می نویسیم ........
+		</div>-->
+				</a>
 			</p>
 		</div>
 	</section>
@@ -67,8 +80,9 @@ function winclose(){
 </section>
 
 
-<footer class="bg-footer" id="bg-footer">
+<footer class="bg-footer change-opacity" id="bg-footer">
 	<div class="footer-content w24 cover">
+	
 		<nav class="footer-menu right f1 w7">
         	<ul>
                 <li><a href="#">صفحه اصلی</a></li>
@@ -76,8 +90,9 @@ function winclose(){
                 <li><a href="#">گالری</a>
 			</ul>
         </nav>
+		
 		<div class="footer-logo left w3"></div>
-		<div class="copyright mr15 f2"> Copyright By aliramezani.ir</div>
+		<div class="copyright mr13 f2"> Copyright By aliramezani.ir</div>
 	</div>
 </footer>
 
