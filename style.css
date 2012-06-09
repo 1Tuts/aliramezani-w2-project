@@ -115,17 +115,17 @@ a{
 
 .footer-menu li a{
 	display:block;
+	color:#F47F20;
 	padding:2px 15px 25px;
 }
 
 .footer-menu li a:hover{
-	color:#999;
+	color:#fff;
 }
 
 .copyright{
-	color:#dedede;
-	font-family:Verdana, Geneva, sans-serif;
-	padding-top:50px;
+	color:#999;
+	padding-top:40px;
 }
 /*************************** END FOOTER MENU **************************/
 /************************* START WINDOW *************************/
@@ -160,7 +160,7 @@ p.close a:hover
 /************************* END WINDOW *************************/
 
 /************************* contact ******** somaye *************/
-
+/*
 .contact{
 	min-height:400px;
 	background-color:#111;
@@ -203,4 +203,4 @@ p.close a:hover
 	line-height:6;
 	font-size:24px;
 	text-align:left;
-}
+}*/
