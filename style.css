@@ -123,16 +123,19 @@ a{
 /************************* START IFRAME *************************/
 .iframe{
 	width:855px;
+	height:40px;
 	margin:160px auto;
+	-webkit-border-radius:8px;
+	background-color:black;
+	opacity:.8;
+	visibility:hidden;
+	-webkit-transition:all 1.5s; /* Safari and Chrome */
 }
 
 .frame{
-	width:850px;
-	min-height:50px;
-	background-color:black;
+	width:450px;
+	/*min-height:30px;*/
 	border:none;
-	opacity:.8;
-	visibility:hidden;
 	/*-webkit-transform:height;*/
 
 }
