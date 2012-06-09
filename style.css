@@ -63,12 +63,6 @@ a{
 	background:transparent no-repeat   url('images/menu_item_background.png');
 }
 /************************* END MENU *********************/
-<<<<<<< HEAD
-=======
-
-.content{
-/*	min-height:500px;/*delete*/
-}
 /*************************** START home-page **************************/
 .home{
 	background-image:url('images/newwelcome.png');
@@ -78,7 +72,6 @@ a{
 	background-position:top;	
 }
 /*************************** END home-page **************************/
->>>>>>> origin/master
 /*************************** START FOOTER **************************/
 .bg-footer{
 	height:140px;/*delete*/

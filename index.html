@@ -37,6 +37,7 @@ function winclose(){
 <body>
 
 <section class="container">
+
 	<header class="header cover" id="header">
 		<nav class="menu right f2">
 		<ul>
@@ -51,15 +52,15 @@ function winclose(){
 			<h1>Dr Ali Ramezani</h1>
 		</section>
 	</header>
-	<section class="content">
+	
+	<section class="content">	
+		<div class="window" id="window-home">
+			<p class="close">
+				<a onClick="winclose()" id="close" title="close"></a>
+			</p>
+		</div>
 	</section>
 	
-	<div class="window" id="window-home">
-		<p class="close">
-			<a onClick="winclose()" id="close" title="close"></a>
-		</p>
-	</div>
-
 </section>
 
 
@@ -76,5 +77,6 @@ function winclose(){
 		<div class="copyright mr15 f1"> Copyright By aliramezani.ir</div>
 	</div>
 </footer>
+
 </body>
 </html>
