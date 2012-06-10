@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin  : 0;
+	padding : 0;
+}
+
+.clear{
+	width:0;
+	height:0;
+	min-height:0;
+	min-width:0; 
+	overflow:hidden;
+	clear:both;
+}
+
+div.container{
+	width  : 980px;
+	margin : 0 auto;
+}
+
+div.slideshow{
+	width    : 350px;
+	margin   : 0 auto;
+	overflow : hidden;
+}
+
+div.slideshow .train{
+	width    : 2000px; 
+	position : relative;
+	-webkit-transition : left 916ms;
+	-moz-transition : left 916ms;
+	-o-transition : left 916ms;
+	transition : left 916ms;
+}
+
+div.slideshow .train > div{
+	float : left;
+}
+
+div.slideshow .train > div > img{
+	display : block;
+}
+
+div.slideshow ul{
+	list-style-type:none;
+	margin-top:20px;
+}
+
+div.slideshow li{
+	width:20px;
+	height:10px;
+	border-radius:50%;
+	background-color:#333;
+	float:left;
+	margin-left:5px;
+	-webkit-transition : all 800ms;
+	-moz-transition : all 800ms;
+	-o-transition : all 800ms;
+	transition : all 800ms;
+}
+
+div.slideshow li:hover{
+	background-color:#787878;
+	height: 15px;
+	margin-top:-3px;
+	-webkit-transition : all 200ms;
+	-moz-transition : all 200ms;
+	-o-transition : all 200ms;
+	transition : all 200ms;
+}
