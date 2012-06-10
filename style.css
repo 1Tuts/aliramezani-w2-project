@@ -78,6 +78,7 @@ a{
 /*{
 	outline:1px dashed red;
 }*/
+
 .home-right{
 	margin-right:30px;
 	margin-top:10px;
@@ -161,6 +162,7 @@ a{
 .window{
 	width:855px;
 	margin:0 auto;
+	height:0;
 	padding-top:1px;
 	-webkit-border-radius:8px;
 	-webkit-box-shadow:0px 10px 3px #444;
