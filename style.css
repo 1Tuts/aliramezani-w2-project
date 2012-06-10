@@ -2,16 +2,21 @@
 /* CSS Document */
 
 body{
+	
+	font-family:Tahoma;
+	direction:rtl;
+}
+
+.back-image{
 	position:fixed;
 	left:0;
 	right:0;
 	top:0;
 	bottom:0;
 	z-index:-1;
-	background:transparent url('images/background_1.png') repeat-x;
+	background:url('images/background_1.png') repeat-x;
 	background-size:6%;
-	font-family:Tahoma;
-	direction:rtl;
+	background-position:center top;
 }
 
 a{
@@ -64,13 +69,13 @@ a{
 }
 /************************* END MENU *********************/
 /*************************** START home-page **************************/
-.home{
+/* .home{
 	background-image:url('images/newwelcome.png');
 	background-repeat:no-repeat;
 	min-height:586px;
 	min-width:900px;
 	background-position:top;	
-}
+}*/
 /*************************** END home-page **************************/
 /*************************** START FOOTER **************************/
 .bg-footer{
@@ -83,19 +88,21 @@ a{
 }
 
 .footer-content{
-	margin:50px auto 0;
+	margin:60px auto 0;
 }
 
 .footer-logo{
 	background:url('images/logo.jpg');
 	background-repeat:no-repeat;
-	min-height:90px;
+	background-size:60px 70px;
+	margin-left:25px;
+	min-height:70px;
 }
 /*************************** END FOOTER **************************/
 /***************************START FOOTER MENU **************************/
 
 .footer-menu{
-	margin-top:50px;
+	margin-top:30px;
 }
 
 .footer-menu ul{
@@ -125,7 +132,8 @@ a{
 
 .copyright{
 	color:#999;
-	padding-top:40px;
+	padding-top:30px;
+	direction:ltr;
 }
 /*************************** END FOOTER MENU **************************/
 /************************* START WINDOW *************************/
@@ -136,8 +144,7 @@ a{
 	-webkit-border-radius:8px;
 	-webkit-box-shadow:0px 10px 3px #444;
 	background-color:black;
-	opacity:.8;
-	visibility:hidden;
+	opacity:0;
 	-webkit-transition:all 1.5s; /* Safari and Chrome */
 }
 
@@ -158,49 +165,7 @@ p.close a:hover
 	cursor:pointer; 
 }
 /************************* END WINDOW *************************/
-
-/************************* contact ******** somaye *************/
-/*
-.contact{
-	min-height:400px;
-	background-color:#111;
-	opacity:0.8;
-	margin:0 auto;
-	border-radius:5px;
+.change-opacity{
+		-webkit-transition:opacity 1.5s linear;
 }
 
-.info{
-	outline: 1px solid red;
-	min-height:400px;
-}
-
-.form{
-	outline: 1px solid blue;
-	min-height:400px;
-}
-
-.info-contact{
-	color : #fff;
-	line-height:5;
-	text-align:center;
-	font-size:24px;
-}
-
-.map{
-	color : #fff;
-	font-size:14px;
-	color:#777;
-	padding-left:10px;
-}
-
-.form{
-	color : #fff;
-}
-
-.form h1{
-	padding-left:20px;
-	color : #fff;
-	line-height:6;
-	font-size:24px;
-	text-align:left;
-}*/
