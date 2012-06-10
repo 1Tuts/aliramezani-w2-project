@@ -3,10 +3,10 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>DrAliRamezani</title>
-<link type="text/css" rel="stylesheet" href="reset.css" />
-<link type="text/css" rel="stylesheet" href="1style.css" />
-<link type="text/css" rel="stylesheet" href="style.css" />
-<link type="image/x-icon" rel="shortcut icon" href="favicon.ico" />
+<link type="text/css" rel="stylesheet" href="../../aliramezani.git/reset.css" />
+<link type="text/css" rel="stylesheet" href="../../aliramezani.git/1style.css" />
+<link type="text/css" rel="stylesheet" href="../../aliramezani.git/style.css" />
+<link type="image/x-icon" rel="shortcut icon" href="../../aliramezani.git/favicon.ico" />
 <!--[if IE]>
 		<script type="text/javascript" src="js/html5.js"></script>
 	<![endif]-->
@@ -19,6 +19,10 @@ function display(y)
 		x='window-home';
 	else if(y==2)
 		x='window-about';
+	else if(y==3)
+		x='window-galery';
+	else if(y==4)
+		x='window-contact';
 	displayResult(x);
 }
 
@@ -58,8 +62,12 @@ function winclose(x){
 					<a href="#" onClick="display(2)">درباره دکتر رمضانی</a>
 				</li>
 				
-				<li><a href="#">گالری لبخند</a></li>
-				<li><a href="#"> تماس با دکتر رمضانی</a></li>
+				<li>
+					<a href="#" onClick="display(3)">گالری لبخند</a>
+				</li>
+				<li>
+					<a href="#" onClick="display(4)"> تماس با دکتر رمضانی</a>
+				</li>
 			</ul>
 		</nav>
 		
@@ -74,16 +82,7 @@ function winclose(x){
 			<p class="close">
 				<a onClick="winclose(x)" id="close">
 					<div class="w10 left home-left">
-						<div class="accslides"> <!--                     by somaye                      -->
-                            <div class="train">
-                                <div><img src="images/11.jpg" alt="Slide Pic 1" width="150" height="100" title="" /></div>
-                                <div><img src="images/22.jpg" alt="Slide Pic 2" width="150" height="100" title="" /></div>
-                                <div><img src="images/33.jpg" alt="Slide Pic 3" width="150" height="100" title="" /></div>
-                                <div><img src="images/44.jpg" alt="Slide Pic 4" width="150" height="100" title="" /></div>
-                                <div><img src="images/55.jpg" alt="Slide Pic 5" width="150" height="100" title="" /></div>
-                            </div>
-                            <div class="clear"></div>
-						</div>
+						slide.......................
 					</div>
 					<div class="home-right ml11"><p>به وب سایت شخصی دکتر علی رمضانی خوش آمدید .</p>
 امروزه دندان پزشکی فقط در مواقع درد دندان یا عفونت مورد استفاده نیست . دندان پزشکی نوین ارائه خدمات دندان پزشکی با رویکرد زیبائی است. درمان به بهترین نحو زیبائی در بالاترین حد. احترام شایسته، گوش فرادادن به کلیه خواسته های مراجعین در محیطی آرام و صمیمی. رعایت کلیه موارد استریل و کنترل عفونت. بهره گیری از تجهیزات مدرن و تکنولوژی دندان پزشکی زیبائی وبکار گیری عالی ترین مواد دندان پزشکی تولید شده از اصول کاری ماست
@@ -94,8 +93,19 @@ function winclose(x){
 			</p>		
 		</div>
 		<div class="window cover" id="window-about">
-
-		</div>
+			<p class="close">
+				<a onClick="winclose(x)" id="close">
+				<!--	<div class="w10 left home-left">
+						slide.......................
+					</div>
+					<div class="home-right ml11"><p>به وب سایت شخصی دکتر علی رمضانی خوش آمدید .</p>
+امروزه دندان پزشکی فقط در مواقع درد دندان یا عفونت مورد استفاده نیست . دندان پزشکی نوین ارائه خدمات دندان پزشکی با رویکرد زیبائی است. درمان به بهترین نحو زیبائی در بالاترین حد. احترام شایسته، گوش فرادادن به کلیه خواسته های مراجعین در محیطی آرام و صمیمی. رعایت کلیه موارد استریل و کنترل عفونت. بهره گیری از تجهیزات مدرن و تکنولوژی دندان پزشکی زیبائی وبکار گیری عالی ترین مواد دندان پزشکی تولید شده از اصول کاری ماست
+.
+برای تعیین وقت قبلی با مطب دکتر علی رمضانی تماس بگیرید :: --&gt; شماره تلفن رو می نویسیم ........
+					</div>
+				</a>
+			</p>
+		</div>-->
 	</section>
 	
 </section>
@@ -108,8 +118,8 @@ function winclose(x){
         	<ul>
                 <li><a href="#">بوی بد دهان </a></li>
                 <li><a href="#"> درمان بوی بد دهان </a></li>
-                <li><a href="#">رابطه وزن و پوسیدگی </a>
-				<li><a href="#">جنس مسواک</a>
+                <li><a href="#">رابطه وزن و پوسیدگی </a></li>
+				<li><a href="#">جنس مسواک</a></li>
 			</ul>
         </nav>
 		
