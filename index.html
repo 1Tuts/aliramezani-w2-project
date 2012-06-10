@@ -13,19 +13,28 @@
 	
 <script type="text/javascript">
 
-function displayResult()
+function display(y)
 {
-	document.getElementById('window-home').style.height='420px';
-	document.getElementById('window-home').style.marginTop='10px';
-	document.getElementById('window-home').style.opacity='1';
+	if (y==1)
+		x='window-home';
+	else if(y==2)
+		x='window-about';
+	displayResult(x);
+}
+
+function displayResult(x)
+{
+	document.getElementById(x).style.height='420px';
+	document.getElementById(x).style.marginTop='10px';
+	document.getElementById(x).style.opacity='1';
 	document.getElementById('header').style.opacity='0.2';
 	document.getElementById('bg-footer').style.opacity='0.2';
 }
 
-function winclose(){
-	document.getElementById('window-home').style.height='40px';
-	document.getElementById('window-home').style.marginTop='100px';
-	document.getElementById('window-home').style.opacity='0';
+function winclose(x){
+	document.getElementById(x).style.height='0px';
+	document.getElementById(x).style.marginTop='0px';
+	document.getElementById(x).style.opacity='0';
 	document.getElementById('header').style.opacity='1';
 	document.getElementById('bg-footer').style.opacity='1';
 
@@ -42,8 +51,12 @@ function winclose(){
 	
 		<nav class="menu right f2">
 			<ul>
-				<li><a href="#" onClick="displayResult()">صفحه اصلی</a></li>
-				<li><a href="#">درباره دکتر رمضانی</a></li>
+				<li>
+					<a href="#" onClick="display(1)">صفحه اصلی</a>
+				</li>
+				<li>
+					<a href="#" onClick="display(2)">درباره دکتر رمضانی</a>
+				</li>
 				
 				<li><a href="#">گالری لبخند</a></li>
 				<li><a href="#"> تماس با دکتر رمضانی</a></li>
@@ -59,7 +72,7 @@ function winclose(){
 	<section class="content">	
 		<div class="window cover" id="window-home">
 			<p class="close">
-				<a onClick="winclose()" id="close">
+				<a onClick="winclose(x)" id="close">
 					<div class="w10 left home-left">
 						slide.......................
 					</div>
@@ -70,6 +83,9 @@ function winclose(){
 					</div>
 				</a>
 			</p>		
+		</div>
+		<div class="window cover" id="window-about">
+
 		</div>
 	</section>
 	
