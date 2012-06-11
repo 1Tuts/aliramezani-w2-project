@@ -193,6 +193,70 @@ p.close a:hover
 .change-opacity{
 		-webkit-transition:opacity 1.5s linear;
 }
+/************************START SLIDE***********************/
+#slid{
+	width:390px;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+#slid .train{
+	margin-top:20px;
+	width:390px;
+	position:relative;
+	
+}
+
+
+#slid .train > div{
+	float:left;
+	-webkit-transition:opacity .3s linear;
+}
+
+#slid .train > div img{
+	display:block;
+}
+
+#slid ul{
+	list-style-type:none;
+	position:absolute;
+	top:350px;
+	left:960px;
+	z-index:20;
+}
+
+#slid li{
+	float:right;
+	width:10px;
+	height:10px;
+	border-radius:50%;
+	background-color:#fff;
+	margin-right:8px;
+}
+
+#slid li:hover{
+	background-color:#000;
+	cursor:pointer;
+}
+
+#img1{
+	opacity:1;
+}
+
+#img2{
+	margin-top:-350px;
+	opacity:0;
+}
+
+#img3{
+	margin-top:-350px;
+	opacity:0;
+}
+
+#img4{
+	margin-top:-350px;
+	opacity:0;
+}
 
 /************************START SLIDE***********************
 div.container{
