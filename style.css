@@ -14,7 +14,7 @@ body{
 	top:0;
 	bottom:0;
 	z-index:-1;
-	background:url('images/background_1.png') repeat-x;
+	background:transparent url('images/background_1.png') repeat-x;
 	background-size:6%;
 	background-position:center top;
 }
