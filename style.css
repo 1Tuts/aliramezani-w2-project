@@ -199,6 +199,7 @@ p.close a:hover
 	margin:0 auto;
 	overflow:hidden;
 	position:relative;
+	min-height:290px;
 }
 
 #slid .train{
@@ -218,8 +219,8 @@ p.close a:hover
 #slid ul{
 	list-style-type:none;
 	position:absolute;
-	top:0px;
-	left:0px;
+	top:280px;
+	left:40px;
 	z-index:20;
 }
 
@@ -242,17 +243,17 @@ p.close a:hover
 }
 
 #img2{
-	margin-top:-350px;
+	margin-top:-250px;
 	opacity:0;
 }
 
 #img3{
-	margin-top:-350px;
+	margin-top:-250px;
 	opacity:0;
 }
 
 #img4{
-	margin-top:-350px;
+	margin-top:-250px;
 	opacity:0;
 }
 
