@@ -14,7 +14,7 @@
 <script type="text/javascript">
 
 function display(y)
-{
+{	
 	if (y==1)
 		x='window-home';
 	else if(y==2)
@@ -32,6 +32,7 @@ function display(y)
 	else if(y==8)
 		x='window-mesvak';
 	displayResult(x);
+	
 }
 
 function displayResult(x)
@@ -43,7 +44,8 @@ function displayResult(x)
 	document.getElementById('bg-footer').style.opacity='0.2';
 }
 
-function winclose(x){
+function winclose(x)
+{
 	document.getElementById(x).style.height='0px';
 	document.getElementById(x).style.marginTop='0px';
 	document.getElementById(x).style.opacity='0';
