@@ -286,7 +286,10 @@ p.close a:hover
 }
 
 .about-left{
-	outline:1px dashedred;
+	background-image:url('images/splash.jpg');
+	background-repeat:no-repeat;
+	margin-top:-370px;
+	height:380px;
 }
 
 button {
