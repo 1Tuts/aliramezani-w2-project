@@ -194,7 +194,7 @@ p.close a:hover
 		-webkit-transition:opacity 1.5s linear;
 }
 
-/************************START SLIDE***********************
+/************************START SLIDE HOME***********************
 div.container{
 	width  : 980px;
 	margin : 0 auto;
@@ -250,5 +250,29 @@ div.slideshow li:hover{
 	-o-transition : all 200ms;
 	transition : all 200ms;
 }
-**********************END SLIDE********************/
+**********************END SLIDE HOME********************/
 
+/********************* START CONTACT *****************/
+
+.left-contact{
+	margin-top:60px;
+	margin-left:30px;
+	outline:1px dashed red;
+}
+
+.right-contact{
+	margin-right:30px;
+	margin-top:10px;
+	border-left:1px solid #111;
+	padding-left:40px;
+	font-size:18px;
+	font-family:Arial, Helvetica, sans-serif;/*font nas konim*/
+	line-height:1.7;
+	text-align:justify;
+	color:#777;
+	outline:1px dashed red;
+}
+
+span{
+	text-align:left;
+}
