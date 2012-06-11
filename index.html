@@ -44,6 +44,15 @@ function winclose(x){
 
 }
 
+function displayImage(z)
+{
+	document.getElementById('img1').style.opacity='0';
+	document.getElementById('img2').style.opacity='0'; 
+	document.getElementById('img3').style.opacity='0'; 
+	document.getElementById('img4').style.opacity='0'; 
+	document.getElementById(z).style.opacity='1';
+}
+
 </script>
 </head>
 
@@ -84,30 +93,27 @@ function winclose(x){
 			</p>
 				  <div class="w10 left home-left">            
 				  <!--*****************************SLIDE***********************************-->
-					  <div id="slid">
+					  <div id="slid" class="cover">
 						<div class="train" id="train">
 							<div id="img1">
 								<img src="images/1.jpg" width="390" height="250" alt="slide" title="" />
 							</div>
 							<div id="img2">
-								<img src="images/2.jpg" width="70" height="50" alt="slide2" title="" id="tra" />
+								<img src="images/2.jpg" width="390" height="250" alt="slide2" title="" />
 							</div>
 							<div id="img3">
-								<img src="images/3.jpg" width="70" height="50" alt="slide3" title="" />
+								<img src="images/3.jpg" width="390" height="250" alt="slide3" title="" />
 							</div>
 							<div id="img4">
-								<img src="images/4.jpg" width="70" height="50" alt="slide4" title="" />
+								<img src="images/4.jpg" width="390" height="250" alt="slide4" title="" />
 							</div>
 						</div>
-						<div class="clear"></div>
-						<div class="botom">
-							<ul>
-								<li onclick="displayimage()"></li>
-								<li onclick="displayimage()"></li>
-								<li onclick="displayimage()"></li>
-								<li onclick="displayimage()"></li>
+							<ul class="cover">
+								<li onclick="displayImage('img1')"></li>
+								<li onclick="displayImage('img2')"></li>
+								<li onclick="displayImage('img3')"></li>
+								<li onclick="displayImage('img4')"></li>
 							</ul>
-						</div>
 					</div>
                  </div>        
 				<div class="home-right ml11"><p>به وب سایت شخصی دکتر علی رمضانی خوش آمدید .</p>

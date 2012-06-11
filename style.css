@@ -198,13 +198,11 @@ p.close a:hover
 	width:390px;
 	margin:0 auto;
 	overflow:hidden;
+	position:relative;
 }
 
 #slid .train{
 	margin-top:20px;
-	width:390px;
-	position:relative;
-	
 }
 
 
@@ -220,8 +218,8 @@ p.close a:hover
 #slid ul{
 	list-style-type:none;
 	position:absolute;
-	top:350px;
-	left:960px;
+	top:0px;
+	left:0px;
 	z-index:20;
 }
 
@@ -258,61 +256,4 @@ p.close a:hover
 	opacity:0;
 }
 
-/************************START SLIDE***********************
-div.container{
-	width  : 980px;
-	margin : 0 auto;
-}
-
-div.slideshow{
-	width    : 350px;
-	margin   : 0 auto;
-	overflow : hidden;
-}
-
-div.slideshow .train{
-	width    : 2000px; 
-	position : relative;
-	-webkit-transition : left 916ms;
-	-moz-transition : left 916ms;
-	-o-transition : left 916ms;
-	transition : left 916ms;
-}
-
-div.slideshow .train > div{
-	float : left;
-}
-
-div.slideshow .train > div > img{
-	display : block;
-}
-
-div.slideshow ul{
-	list-style-type:none;
-	margin-top:20px;
-}
-
-div.slideshow li{
-	width:20px;
-	height:10px;
-	border-radius:50%;
-	background-color:#555;
-	float:left;
-	margin-left:5px;
-	-webkit-transition : all 800ms;
-	-moz-transition : all 800ms;
-	-o-transition : all 800ms;
-	transition : all 800ms;
-}
-
-div.slideshow li:hover{
-	background-color:#F47F20;
-	height: 15px;
-	margin-top:-3px;
-	-webkit-transition : all 200ms;
-	-moz-transition : all 200ms;
-	-o-transition : all 200ms;
-	transition : all 200ms;
-}
-**********************END SLIDE********************/
 
