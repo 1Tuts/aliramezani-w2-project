@@ -199,7 +199,7 @@ p.close a:hover
 	margin:0 auto;
 	overflow:hidden;
 	position:relative;
-	min-height:290px;
+	min-height:310px;
 }
 
 #slid .train{
@@ -228,15 +228,17 @@ p.close a:hover
 
 #slid li{
 	float:right;
-	width:10px;
-	height:10px;
-	border-radius:50%;
-	background-color:#fff;
-	margin-right:8px;
+	width:15px;
+	height:20px;
+	background-image:url('images/buttom.png');
+	background-repeat:no-repeat;
+/*	border-radius:50%;*/
+/*	background-color:#fff;*/
+	margin-right:4px;
 }
 
 #slid li:hover{
-	background-color:#000;
+/*	background-color:#000;*/
 	cursor:pointer;
 }
 
