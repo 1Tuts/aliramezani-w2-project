@@ -321,7 +321,6 @@ div.slideshow li:hover{
 .left-contact{
 	margin-top:60px;
 	margin-left:30px;
-	outline:1px dashed red;
 }
 
 .right-contact{
@@ -329,14 +328,44 @@ div.slideshow li:hover{
 	margin-top:10px;
 	border-left:1px solid #111;
 	padding-left:40px;
-	font-size:18px;
-	font-family:Arial, Helvetica, sans-serif;/*font nas konim*/
-	line-height:1.7;
+	font-family:inherit;
+	line-height:30px;
 	text-align:justify;
 	color:#777;
-	outline:1px dashed red;
 }
 
-span{
+.right-contact h1{
+	color:#DEDEDE;
+	line-height:4;
+	text-align:center;
+}
+
+.right-contact h4{
+	color:#DDD;
+	line-height:3;
+}
+
+.email{
 	text-align:left;
+	color:#F47F20;	
+}
+
+.left-contact{
+	text-align:right;
+	line-height:1.8;
+	color:#777;
+	margin-right:100px;
+}
+
+button {
+	background-color:#95a207;
+	padding: 2px 15px 2px 15px;
+	border: none;
+	white-space: nowrap;
+	text-align:center;
+	border-radius:2px; 
+}
+
+buttom,lable{
+	cursor:pointer; /* kar nemikone */	
 }
