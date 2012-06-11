@@ -23,6 +23,14 @@ function display(y)
 		x='window-galery';
 	else if(y==4)
 		x='window-contact';
+	else if(y==5)
+		x='window-boyebad';
+	else if(y==6)
+		x='window-darman';
+	else if(y==7)
+		x='window-pusidegy';
+	else if(y==8)
+		x='window-mesvak';
 	displayResult(x);
 }
 
@@ -91,7 +99,7 @@ function displayImage(z)
 			<p class="close">
 				<a onClick="winclose(x)" id="close"></a>
 			</p>
-				  <div class="w10 left home-left">            
+				  <div class="left home-left">            
 				  <!--*****************************SLIDE***********************************-->
 					  <div id="slid" class="cover">
 						<div class="train" id="train">
@@ -116,7 +124,7 @@ function displayImage(z)
 							</ul>
 					</div>
                  </div>        
-				<div class="home-right ml11"><p>به وب سایت شخصی دکتر علی رمضانی خوش آمدید .</p>
+				<div class="share-property ml11"><h1>به سایت دکتر علی رمضانی خوش آمدید .</h1>
 امروزه دندان پزشکی فقط در مواقع درد دندان یا عفونت مورد استفاده نیست . دندان پزشکی نوین ارائه خدمات دندان پزشکی با رویکرد زیبائی است. درمان به بهترین نحو زیبائی در بالاترین حد. احترام شایسته، گوش فرادادن به کلیه خواسته های مراجعین در محیطی آرام و صمیمی. رعایت کلیه موارد استریل و کنترل عفونت. بهره گیری از تجهیزات مدرن و تکنولوژی دندان پزشکی زیبائی وبکار گیری عالی ترین مواد دندان پزشکی تولید شده از اصول کاری ماست
 .
 برای تعیین وقت قبلی با مطب دکتر علی رمضانی تماس بگیرید :: --&gt; شماره تلفن رو می نویسیم ........
@@ -126,6 +134,17 @@ function displayImage(z)
 			<p class="close">
 				<a onClick="winclose(x)" id="close"></a>
 			</p>
+			<div class="share-property ml11">
+				<h1>درباره دکتر </h1>
+				دکتر علی رمضانی  متولد  1344  فارغ التحصیل رشته دندانپزشکی از دانشگاه شاهد تهران در سال 81 <br/>
+گذراندن دوران طرح و خارج از مرکز در گناباد<br/> 
+عضو انجمن دندانپزشکان سازمان نظام پزشکی <br/>
+دارای مدرک دکترای دندان پزشکی عمومی 
+
+			</div>
+			<div class="about-left left">
+			
+			</div>
 		</div>
 		<div class="window cover" id="window-galery">
 			<p class="close">
@@ -134,47 +153,103 @@ function displayImage(z)
 		</div>
 		<div class="window cover" id="window-contact">
 			<p class="close">
-				<a onClick="winclose(x)" id="close">
-                	<div class="left-contact w10 left f3">				<!--                   by somaye                  -->
+				<a onClick="winclose(x)" id="close"></a>
+			</p>
+                	<div class="left-contact  left f3">				<!--                   by somaye                  -->
          				 <form action="mailto:draliramezani@yahoo.com" method="post" enctype="text/plain">
-							<label>نام:</label><br />
-							<input type="text" name="name" size="30" />
+							<label>نام:</label>
+							<input type="text" name="name" size="15" />
+							
+							<label> ایمیل:</label>
+							<input type="text" name="email" size="25" />
 							<br />
-							<label> ایمیل:</label><br />
-							<input type="text" name="email" size="30" />
-							<br />
-							<label> موضوع:</label><br />
+							<!--<label> موضوع:</label><br />
 							<input type="text" name="comment" size="30" />
-							<br />
+							<br />-->
 							<label>پیام:</label><br />
-							<textarea rows="6" cols="25" name="cnt"></textarea>
+							<textarea rows="6" cols="45" name="cnt"></textarea>
 							<br />
                             
-                            <button type="submit"><span>Send Message</span></button>
+                            <button type="submit"><span>ارسال</span></button>
 							
 						</form>
+						<div>MAP</div>
                     </div>			
-                    <div class="right-contact ml11 f4"> 
-                    <h1 class="f4">تماس با دکتر علی رمضانی</h1>
-                    آدرس مطب : <br />
-                     استان خراسان رضوی , شهرستان گناباد , میدان امام , طبقه فوقانی چاپخانه مرکزی  <br />
-                    تلفن : <br />
-                    55 56 722 – 533 - 98+  <br />
-                    
-                    <h4 class="f3">راه میانبر تماس با دکتر :  </h4>
-                    <div class=" email f3">
-                        Email : info@aliramezani.ir <br />
-                        Yahoo : draliramezani@yahoo.com <br />
-                        Gmail : aliramezani44@gmail.com <br />
+                    <div class="share-property ml11 f4"> 
+						<h1 class="f4">تماس با دکتر علی رمضانی</h1>
+						آدرس مطب : <br />
+						 استان خراسان رضوی , شهرستان گناباد , میدان امام , طبقه فوقانی چاپخانه مرکزی  <br />
+						تلفن : <br />
+						55 56 722 – 533 - 98+  <br />
+						<h4 class="f3">راه میانبر تماس با دکتر :  </h4>
+						<div class=" email f3">
+							Email :<a href="mailto:info@aliramezani.com"> info@aliramezani.com</a> <br />
+							Yahoo :<a href="mailto:draliramezani@yahoo.com"> draliramezani@yahoo.com</a> <br />
+							Gmail :<a href="mailto:aliramezani44@gmail.com">aliramezani44@gmail.com </a><br />
+						</div>
                     </div>
-                    
-                    
-                    </div>
-                
-                </a>
-			</p>
-            
 		</div>
+		<div class="window cover" id="window-boyebad">
+			<p class="close">
+				<a onClick="winclose(x)" id="close"></a>
+			</p>
+			<div class="share-property ml11">
+				<h1>بوی بد دها ن</h1>
+			
+			</div>
+			<div class="about-left left">
+			
+			</div>
+		</div>
+		<div class="window cover" id="window-darman">
+			<p class="close">
+				<a onClick="winclose(x)" id="close"></a>
+			</p>
+			<div class="share-property ml11">
+				<h1>درمان بوی بد دهان</h1>
+			
+			</div>
+			<div class="about-left left">
+			
+			</div>
+		</div>
+		<div class="window cover" id="window-pusidegy">
+			<p class="close">
+				<a onClick="winclose(x)" id="close"></a>
+			</p>
+			<div class="share-property ml11">
+				<h1>رابطه وزن و پوسیدگی</h1>
+			
+			</div>
+			<div class="about-left left">
+			
+			</div>
+		</div>
+		<div class="window cover" id="window-mesvak">
+			<p class="close">
+				<a onClick="winclose(x)" id="close"></a>
+			</p>
+			<div class="share-property ml11">
+				<h1>جنس مسواک</h1>
+
+* مسواک چربی : در گذشته بسیار معمول بوده و امروزه مصرف آن هنوز هم در میان اعراب مشاهده می شود. این مسواک در واقع ریشه یک نوع گیاه است که پس از بریدن و قطعه قطعه کردن بعنوان مسواک و خلال استفاده می شده است.<br />
+
+* مسواک موشی : که از موی حیوانات ساخته می شده است. این نوع به علت آنکه بیش از حد دچار انعطاف و نرمی شده و بسیار زود نیز کثیف می شود استفاده از آن تقریباً کنار گذاشته شده است.<br />
+
+* مسواک نایلونی : که تقریباً تمامی مسواکهای موجود در بازار از این جنس است و معایب انواع قبلی را از نظر سختی به سه دسته تقسیم می کنند:
+
+1- نرم Soft
+2- متوسط Medium
+3- سخت Hard
+
+افراد عادی بهتر است از نوع متوسط Medium استفاده کنند. در ناراحتی های لثه ای باید از مسواکهای نرم Soft استفاده نمود و افراد مبتلا به صرع که داروی دیلانتین مصرف می کنند و دارای لثه های متورم، حجیم و سخت هستند باید از نوع Hared استفاده کنند. این نوع مسواکها (نرم و سخت) توسط دندانپزشک باید تجویز گردد.
+
+			</div>
+			<div class="about-left left">
+			
+			</div>
+		</div>
+		
 	</section>
 	
 </section>
@@ -185,10 +260,10 @@ function displayImage(z)
 	
 		<nav class="footer-menu right f2">
         	<ul>
-                <li><a href="#">بوی بد دهان </a></li>
-                <li><a href="#"> درمان بوی بد دهان </a></li>
-                <li><a href="#">رابطه وزن و پوسیدگی </a></li>
-				<li><a href="#">جنس مسواک</a></li>
+                <li><a href="#" onClick="display(5)">بوی بد دهان </a></li>
+                <li><a href="#" onClick="display(6)"> درمان بوی بد دهان </a></li>
+                <li><a href="#" onClick="display(7)">رابطه وزن و پوسیدگی </a></li>
+				<li><a href="#" onClick="display(8)">جنس مسواک</a></li>
 			</ul>
         </nav>
 		
