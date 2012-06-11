@@ -304,3 +304,11 @@ button {
 buttom,lable{
 	cursor:pointer; /* kar nemikone */	
 }
+
+.boyebad-left{
+	background-repeat:no-repeat;
+	margin-top:-315px;
+	width:350px;
+	height:233px;
+	padding: 0px 15px 2px 50px;
+}
