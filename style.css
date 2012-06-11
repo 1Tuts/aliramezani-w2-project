@@ -203,13 +203,15 @@ p.close a:hover
 }
 
 #slid .train{
-	margin-top:20px;
+	margin-top:20px;	
 }
-
 
 #slid .train > div{
 	float:left;
-	-webkit-transition:opacity .3s linear;
+	-webkit-transition:opacity .5s linear;
+	-moz-transition:opacity .3s linear;
+	-o-transition:opacity .3s linear;
+	-ms-transition:opacity .3s linear;
 }
 
 #slid .train > div img{
