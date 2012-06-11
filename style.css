@@ -198,19 +198,20 @@ p.close a:hover
 	width:390px;
 	margin:0 auto;
 	overflow:hidden;
+	position:relative;
+	min-height:310px;
 }
 
 #slid .train{
-	margin-top:20px;
-	width:390px;
-	position:relative;
-	
+	margin-top:20px;	
 }
-
 
 #slid .train > div{
 	float:left;
-	-webkit-transition:opacity .3s linear;
+	-webkit-transition:opacity .5s linear;
+	-moz-transition:opacity .3s linear;
+	-o-transition:opacity .3s linear;
+	-ms-transition:opacity .3s linear;
 }
 
 #slid .train > div img{
@@ -220,22 +221,24 @@ p.close a:hover
 #slid ul{
 	list-style-type:none;
 	position:absolute;
-	top:350px;
-	left:960px;
+	top:280px;
+	left:40px;
 	z-index:20;
 }
 
 #slid li{
 	float:right;
-	width:10px;
-	height:10px;
-	border-radius:50%;
-	background-color:#fff;
-	margin-right:8px;
+	width:15px;
+	height:20px;
+	background-image:url('images/buttom.png');
+	background-repeat:no-repeat;
+/*	border-radius:50%;*/
+/*	background-color:#fff;*/
+	margin-right:4px;
 }
 
 #slid li:hover{
-	background-color:#000;
+/*	background-color:#000;*/
 	cursor:pointer;
 }
 
@@ -244,20 +247,21 @@ p.close a:hover
 }
 
 #img2{
-	margin-top:-350px;
+	margin-top:-250px;
 	opacity:0;
 }
 
 #img3{
-	margin-top:-350px;
+	margin-top:-250px;
 	opacity:0;
 }
 
 #img4{
-	margin-top:-350px;
+	margin-top:-250px;
 	opacity:0;
 }
 
+<<<<<<< HEAD
 /************************START SLIDE HOME***********************
 div.container{
 	width  : 980px;
@@ -315,6 +319,8 @@ div.slideshow li:hover{
 	transition : all 200ms;
 }
 **********************END SLIDE HOME********************/
+=======
+>>>>>>> origin/master
 
 /********************* START CONTACT *****************/
 
