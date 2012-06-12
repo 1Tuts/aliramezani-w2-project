@@ -6,8 +6,13 @@
     src: url('IranNastaliq.ttf') format("truetype");
 }
 
+@font-face {
+	font-family: "My Custom Font2";
+    src: url('BNazanin.ttf') format("truetype");
+}
+
 .customfont { 
-    font-family: "My Custom Font";
+    font-family: "My Custom Font2";
 }
 
 body{
@@ -258,8 +263,8 @@ p.close a:hover
 	border-left:1px solid #111;
 	height:400px;
 	padding-left:40px;
-	font-size:18px;
-	font-family:Arial, Helvetica, sans-serif;/*font nas konim*/
+	font-size:16px;
+	font-family: "My Custom Font2";
 	line-height:1.7;
 	text-align:justify;
 	color:#777;
