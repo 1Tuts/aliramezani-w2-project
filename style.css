@@ -1,6 +1,15 @@
 @charset "utf-8";
 /* CSS Document */
 
+@font-face {
+    font-family: "My Custom Font";
+    src: url('IranNastaliq.ttf') format("truetype");
+}
+
+.customfont { 
+    font-family: "My Custom Font";
+}
+
 body{
 	
 	font-family:Tahoma;
@@ -63,11 +72,14 @@ a{
 .menu li a{
 	display:block;
 	padding:5px 15px;
+	-webkit-transition:all 0.8s
 }
 
 .menu li a:hover{
 /*	background:transparent no-repeat   url('images/menu_item_background.png');*/
+	border-radius:15px;
 	background-color:#b8c70e;
+	
 }
 /************************* END MENU *********************/
 /*************************** START home-left **************************/
@@ -75,11 +87,6 @@ a{
 	margin-top:60px;
 	margin-left:30px;
 }
-
-/*{
-	outline:1px dashed red;
-}*/
-
 /*************************** END home-left **************************/
 /*************************** START FOOTER **************************/
 .bg-footer{
@@ -266,7 +273,9 @@ p.close a:hover
 
 .share-property h1{
 	color:#F47F20;	
-	line-height:4;
+	line-height:2;
+    font-family: "My Custom Font";
+	font-size:40px;
 }
 
 .share-property h4{
