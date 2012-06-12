@@ -41,6 +41,7 @@ function displayResult(x)
 	document.getElementById(x).style.height='420px';
 	document.getElementById(x).style.marginTop='10px';
 	document.getElementById(x).style.opacity='1';
+	document.getElementById(x).style.visibility='visible';/*for IE*/
 	document.getElementById('header').style.opacity='0.2';
 	document.getElementById('bg-footer').style.opacity='0.2';
 }
@@ -50,6 +51,7 @@ function winclose(x)
 	document.getElementById(x).style.height='0px';
 	document.getElementById(x).style.marginTop='0px';
 	document.getElementById(x).style.opacity='0';
+	document.getElementById(x).style.visibility='hidden';/*for IE*/
 	document.getElementById('header').style.opacity='1';
 	document.getElementById('bg-footer').style.opacity='1';
 
@@ -275,30 +277,6 @@ function displayImage(z)
 				</div>
 				<input type="button" value="back" onclick="prvSlide()" />
 				<input type="button" value="next" onclick="nextSlide()" />
-			
-			<!--	<div id="slid" class="cover">
-					<div class="train" id="train">
-						<div id="img1">
-							<img src="images/mesvak1.png" width="390" height="250" alt="slide" title="" />
-						</div>
-						<div id="img2">
-							<img src="images/mesvak2.png" width="390" height="250" alt="slide2" title="" />
-						</div>
-						<div id="img3">
-							<img src="images/mesvak3.png" width="390" height="250" alt="slide3" title="" />
-						</div>
-						<div id="img4">
-							<img src="images/mesvak4.png" width="390" height="250" alt="slide4" title="" />
-						</div>
-						</div>
-							<ul class="cover">
-								<li onclick="displayImage('img1')"></li>
-								<li onclick="displayImage('img2')"></li>
-								<li onclick="displayImage('img3')"></li>
-								<li onclick="displayImage('img4')"></li>
-							</ul>
-					</div>-->
-			
 			</div>
 		</div>
 		
