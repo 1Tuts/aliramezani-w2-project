@@ -238,21 +238,33 @@ p.close a:hover
 
 #img1{
 	opacity:1;
+	background-image:url('images/1.png');
+	width:350px;
+	height:220px;
 }
 
 #img2{
-	margin-top:-250px;
+	margin-top:-220px;
 	opacity:0;
+	background-image:url('images/2.png');
+	width:350px;
+	height:220px;
 }
 
 #img3{
-	margin-top:-250px;
+	margin-top:-220px;
 	opacity:0;
+	background-image:url('images/3.png');
+	width:350px;
+	height:220px;
 }
 
 #img4{
-	margin-top:-250px;
+	margin-top:-220px;
 	opacity:0;
+	background-image:url('images/4.png');
+	width:350px;
+	height:220px;
 }
 
 
@@ -326,19 +338,21 @@ buttom,lable{
 }
 
 .boyebad-left{
+	background-image:url('images/booye-bad-dahan.png');
 	background-repeat:no-repeat;
 	margin-top:-310px;
+	margin-left:40px;
 	width:350px;
 	height:233px;
-	padding: 0px 15px 2px 50px;
 }
 
 .darman-left{
+	background-image:url('images/darman.png');
 	background-repeat:no-repeat;
 	margin-top:-310px;
+	margin-left:50px;
 	width:350px;
 	height:233px;
-	padding: 0px 15px 2px 50px;
 }
 
 .pusidegy-left{
