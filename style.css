@@ -341,7 +341,7 @@ div.banner{
 }
 
 div.banner div.scroll{
-	width:1600px; /* 5*980 (per img) */
+	width:2800px; /* 7*390 (per img) */
 	height:250px;
 	position:absolute;
 	left:0;
@@ -361,20 +361,28 @@ div.banner div.scroll > div{
 }
 
 div.banner div.scroll > div.adv1{
-	background-image:url(images/mesvak1.png);
+	background-image:url('images/mesvak1.png');
 }
 div.banner div.scroll > div.adv2{
-	background-image:url(images/mesvak2.png);
+	background-image:url('images/mesvak2.png');
 }
 div.banner div.scroll > div.adv3{
-	background-image:url(images/mesvak3.png);
+	background-image:url('images/mesvak3.png');
 }
 div.banner div.scroll > div.adv4{
-	background-image:url(images/mesvak4.png);
+	background-image:url('images/mesvak4.png');
 }
-/*div.banner div.scroll > div.adv5{
-	background-image:url(images/b5.jpg);
-}*/
+div.banner div.scroll > div.adv5{
+	background-image:url('images/mesvak5.png');
+}
+
+div.banner div.scroll > div.adv6{
+	background-image:url('images/mesvak6.png');
+}
+
+div.banner div.scroll > div.adv7{
+	background-image:url('images/mesvak7.png');
+}
 
 div.banner ul.btn{
 	list-style-type:none;
@@ -383,6 +391,7 @@ div.banner ul.btn{
 	position:absolute;
 	right:0;
 	bottom:0px;
+	visibility:hidden;
 
 }
 
