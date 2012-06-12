@@ -292,6 +292,11 @@ p.close a:hover
 	height:380px;
 }
 
+.mesvak-left{
+	margin-top:-350px;
+	margin-left:20px;
+}
+
 button {
 	background-color:#95a207;
 	padding: 2px 15px 2px 15px;
@@ -325,3 +330,76 @@ buttom,lable{
 	vertical-align:text-top;
 	margin-top:-310px;
 }
+/********************************** START BANNER AUTO *********************************/
+div.banner{
+	width:390px;
+	height:280px;
+	overflow:hidden;
+/*	margin-top:20px;*/
+	position:relative;
+}
+
+div.banner div.scroll{
+	width:1600px; /* 5*980 (per img) */
+	height:250px;
+	position:absolute;
+	left:0;
+	top:0;
+	-webkit-transition-property:all;
+	-webkit-transition-duration:800ms;
+	-webkit-transition-timing-function:cubic-bezier(0,0.7,0.3,1);
+	
+}
+
+div.banner div.scroll > div{
+	width:390px;
+	height:inherit;
+	float:left;
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+
+div.banner div.scroll > div.adv1{
+	background-image:url(images/mesvak1.png);
+}
+div.banner div.scroll > div.adv2{
+	background-image:url(images/mesvak2.png);
+}
+div.banner div.scroll > div.adv3{
+	background-image:url(images/mesvak3.png);
+}
+div.banner div.scroll > div.adv4{
+	background-image:url(images/mesvak4.png);
+}
+/*div.banner div.scroll > div.adv5{
+	background-image:url(images/b5.jpg);
+}*/
+
+div.banner ul.btn{
+	list-style-type:none;
+	width:200px;
+	height:16px;
+	position:absolute;
+	right:0;
+	bottom:0px;
+
+}
+
+div.banner ul.btn li{
+	float:left;
+	width:30px;
+	height:10px;
+	margin-right:5px;
+	background-color:#333;
+	cursor:pointer;
+	-webkit-transition:all 1000ms;
+}
+
+div.banner ul.btn li:hover,
+div.banner ul.btn li.active{
+	background-color:#39D;
+	height:22px;
+	margin-top:-6px;
+	-webkit-transition-duration:300ms;
+}
+/********************************* END BANNMER AUTO*******************************/
