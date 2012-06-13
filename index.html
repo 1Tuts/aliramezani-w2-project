@@ -32,15 +32,47 @@ function display(y)
 		x='window-pusidegy';
 	else if(y==8)
 		x='window-mesvak';
-	displayResult(x);
+	resetWindow(x);	
+}
+
+function resetWindow(x)
+{
+	document.getElementById('window-home').style.opacity='0';
+	document.getElementById('window-about').style.opacity='0';
+	document.getElementById('window-galery').style.opacity='0';
+	document.getElementById('window-contact').style.opacity='0';
+	document.getElementById('window-boyebad').style.opacity='0';
+	document.getElementById('window-darman').style.opacity='0';
+	document.getElementById('window-pusidegy').style.opacity='0';
+	document.getElementById('window-mesvak').style.opacity='0';
 	
+	document.getElementById('window-home').style.height='0px';
+	document.getElementById('window-about').style.height='0px';
+	document.getElementById('window-galery').style.height='0px';
+	document.getElementById('window-contact').style.height='0px';
+	document.getElementById('window-boyebad').style.height='0px';
+	document.getElementById('window-darman').style.height='0px';
+	document.getElementById('window-pusidegy').style.height='0px';
+	document.getElementById('window-mesvak').style.height='0px';
+
+	document.getElementById('window-home').style.marginTop='0px';
+	document.getElementById('window-about').style.marginTop='0px';
+	document.getElementById('window-galery').style.marginTop='0px';
+	document.getElementById('window-contact').style.marginTop='0px';
+	document.getElementById('window-boyebad').style.marginTop='0px';
+	document.getElementById('window-darman').style.marginTop='0px';
+	document.getElementById('window-pusidegy').style.marginTop='0px';
+	document.getElementById('window-mesvak').style.marginTop='0px';
+	
+	displayResult(x);
+		
 }
 
 function displayResult(x)
 {
+	document.getElementById(x).style.opacity='1';
 	document.getElementById(x).style.height='420px';
 	document.getElementById(x).style.marginTop='10px';
-	document.getElementById(x).style.opacity='1';
 	document.getElementById(x).style.visibility='visible';/*for IE*/
 	document.getElementById('header').style.opacity='0.2';
 	document.getElementById('bg-footer').style.opacity='0.2';
