@@ -322,6 +322,30 @@ p.close a:hover
 .mesvak-left{
 	margin-top:-350px;
 	margin-left:20px;
+	position:relative;
+	outline:1px dashed red;
+}
+
+.mesvak-left .next{
+	background-image:url('images/next.png');
+	background-repeat:no-repeat;
+	z-index:10;
+	cursor:pointer;
+	height:40px;
+	position:absolute;
+	top:100px;
+	left:378px;
+}
+
+.mesvak-left .prv{
+	background-image:url('images/prv.png');
+	background-repeat:no-repeat;
+	cursor:pointer;
+	z-index:10;
+	height:40px;
+	position:absolute;
+	top:100px;
+	right:357px;
 }
 
 button {
@@ -362,9 +386,8 @@ buttom,lable{
 /********************************** START BANNER AUTO *********************************/
 div.banner{
 	width:390px;
-	height:280px;
+	height:250px;
 	overflow:hidden;
-/*	margin-top:20px;*/
 	position:relative;
 }
 
