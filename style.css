@@ -77,7 +77,9 @@ a{
 .menu li a{
 	display:block;
 	padding:5px 15px;
-	-webkit-transition:all 0.8s
+	-webkit-transition:all 0.8s;
+	-mz-transition:all 0.8s;
+	-o-transition:all 0.8s;
 }
 
 .menu li a:hover{
@@ -161,24 +163,24 @@ a{
 	margin:0 auto;
 	height:0;
 	padding-top:1px;
-	-webkit-border-radius:8px;
-	-webkit-box-shadow:0px 10px 3px #444;
+	border-radius:8px;
+	box-shadow:0px 10px 3px #444;
 	background-color:black;
 	opacity:0;
 	visibility:hidden;
 	overflow:hidden;
 	-webkit-transition:all 1.5s; /* Safari and Chrome */
+	-mz-transition:all 1.5s;
+	-o-transition:all 1.5s;
 }
 
 p.close a 
 { 
-/*	overflow: hidden;*/
 	float: right; 
 	width: 15px; 
 	height: 15px; 
 	margin:15px 15px;
 	background:url("images/window_close.png") no-repeat; 
-	/*text-indent: -99em; */
 }
 
 p.close a:hover 
@@ -189,6 +191,8 @@ p.close a:hover
 /************************* END WINDOW *************************/
 .change-opacity{
 		-webkit-transition:opacity 1.5s linear;
+		-mz-transition:opacity 1.5s linear;
+		-o-transition:opacity 1.5s linear;
 }
 /************************START SLIDE***********************/
 #slid{
@@ -218,18 +222,18 @@ p.close a:hover
 #slid ul{
 	list-style-type:none;
 	position:absolute;
-	top:280px;
+	top:250px;
 	left:40px;
 	z-index:20;
 }
 
 #slid li{
 	float:right;
-	width:15px;
+	width:21px;
 	height:20px;
-	background-image:url('images/buttom.png');
+	background-image:url('images/btn-slide.png');
 	background-repeat:no-repeat;
-	margin-right:4px;
+	margin-right:2px;
 }
 
 #slid li:hover{
@@ -397,8 +401,15 @@ div.banner div.scroll{
 	left:0;
 	top:0;
 	-webkit-transition-property:all;
+	-mz-transition-property:all;
+	-o-transition-property:all;
 	-webkit-transition-duration:800ms;
+	-mz-transition-duration:800ms;
+	-o-transition-duration:800ms;
 	-webkit-transition-timing-function:cubic-bezier(0,0.7,0.3,1);
+	-mz-transition-timing-function:cubic-bezier(0,0.7,0.3,1);
+	-o-transition-timing-function:cubic-bezier(0,0.7,0.3,1);
+	transition-timing-function:cubic-bezier(0,0.7,0.3,1);
 	
 }
 
@@ -452,7 +463,9 @@ div.banner ul.btn li{
 	margin-right:5px;
 	background-color:#333;
 	cursor:pointer;
-	-webkit-transition:all 1000ms;
+	moz-transition: all 1000ms; /* Firefox 4 */
+	-webkit-transition: all 1000ms; /* Safari and Chrome */
+	-o-transition: all 1000ms; /* Opera */
 }
 
 div.banner ul.btn li:hover,
@@ -461,5 +474,7 @@ div.banner ul.btn li.active{
 	height:22px;
 	margin-top:-6px;
 	-webkit-transition-duration:300ms;
+	-moz-transition-duration:300ms;
+	-o-transition-duration:300ms;
 }
 /********************************* END BANNMER AUTO*******************************/
