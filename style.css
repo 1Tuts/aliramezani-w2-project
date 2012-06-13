@@ -1,6 +1,20 @@
 @charset "utf-8";
 /* CSS Document */
 
+@font-face {
+    font-family: "My Custom Font";
+    src: url('IranNastaliq.ttf') format("truetype");
+}
+
+@font-face {
+	font-family: "My Custom Font2";
+    src: url('BNazanin.ttf') format("truetype");
+}
+
+.customfont { 
+    font-family: "My Custom Font2";
+}
+
 body{
 	
 	font-family:Tahoma;
@@ -63,11 +77,14 @@ a{
 .menu li a{
 	display:block;
 	padding:5px 15px;
+	-webkit-transition:all 0.8s
 }
 
 .menu li a:hover{
 /*	background:transparent no-repeat   url('images/menu_item_background.png');*/
+	border-radius:15px;
 	background-color:#b8c70e;
+	
 }
 /************************* END MENU *********************/
 /*************************** START home-left **************************/
@@ -75,11 +92,6 @@ a{
 	margin-top:60px;
 	margin-left:30px;
 }
-
-/*{
-	outline:1px dashed red;
-}*/
-
 /*************************** END home-left **************************/
 /*************************** START FOOTER **************************/
 .bg-footer{
@@ -153,6 +165,7 @@ a{
 	-webkit-box-shadow:0px 10px 3px #444;
 	background-color:black;
 	opacity:0;
+	visibility:hidden;
 	overflow:hidden;
 	-webkit-transition:all 1.5s; /* Safari and Chrome */
 }
@@ -225,21 +238,33 @@ p.close a:hover
 
 #img1{
 	opacity:1;
+	background-image:url('images/1.png');
+	width:350px;
+	height:220px;
 }
 
 #img2{
-	margin-top:-250px;
+	margin-top:-220px;
 	opacity:0;
+	background-image:url('images/2.png');
+	width:350px;
+	height:220px;
 }
 
 #img3{
-	margin-top:-250px;
+	margin-top:-220px;
 	opacity:0;
+	background-image:url('images/3.png');
+	width:350px;
+	height:220px;
 }
 
 #img4{
-	margin-top:-250px;
+	margin-top:-220px;
 	opacity:0;
+	background-image:url('images/4.png');
+	width:350px;
+	height:220px;
 }
 
 
@@ -250,8 +275,8 @@ p.close a:hover
 	border-left:1px solid #111;
 	height:400px;
 	padding-left:40px;
-	font-size:18px;
-	font-family:Arial, Helvetica, sans-serif;/*font nas konim*/
+	font-size:16px;
+	font-family: "My Custom Font2";
 	line-height:1.7;
 	text-align:justify;
 	color:#777;
@@ -265,7 +290,9 @@ p.close a:hover
 
 .share-property h1{
 	color:#F47F20;	
-	line-height:4;
+	line-height:2;
+    font-family: "My Custom Font";
+	font-size:40px;
 }
 
 .share-property h4{
@@ -292,6 +319,11 @@ p.close a:hover
 	height:380px;
 }
 
+.mesvak-left{
+	margin-top:-350px;
+	margin-left:20px;
+}
+
 button {
 	background-color:#95a207;
 	padding: 2px 15px 2px 15px;
@@ -306,22 +338,106 @@ buttom,lable{
 }
 
 .boyebad-left{
+	background-image:url('images/booye-bad-dahan.png');
 	background-repeat:no-repeat;
 	margin-top:-310px;
+	margin-left:40px;
 	width:350px;
 	height:233px;
-	padding: 0px 15px 2px 50px;
 }
 
 .darman-left{
+	background-image:url('images/darman.png');
 	background-repeat:no-repeat;
 	margin-top:-310px;
+	margin-left:50px;
 	width:350px;
 	height:233px;
-	padding: 0px 15px 2px 50px;
 }
 
 .pusidegy-left{
 	vertical-align:text-top;
 	margin-top:-310px;
 }
+/********************************** START BANNER AUTO *********************************/
+div.banner{
+	width:390px;
+	height:280px;
+	overflow:hidden;
+/*	margin-top:20px;*/
+	position:relative;
+}
+
+div.banner div.scroll{
+	width:2800px; /* 7*390 (per img) */
+	height:250px;
+	position:absolute;
+	left:0;
+	top:0;
+	-webkit-transition-property:all;
+	-webkit-transition-duration:800ms;
+	-webkit-transition-timing-function:cubic-bezier(0,0.7,0.3,1);
+	
+}
+
+div.banner div.scroll > div{
+	width:390px;
+	height:inherit;
+	float:left;
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+
+div.banner div.scroll > div.adv1{
+	background-image:url('images/mesvak1.png');
+}
+div.banner div.scroll > div.adv2{
+	background-image:url('images/mesvak2.png');
+}
+div.banner div.scroll > div.adv3{
+	background-image:url('images/mesvak3.png');
+}
+div.banner div.scroll > div.adv4{
+	background-image:url('images/mesvak4.png');
+}
+div.banner div.scroll > div.adv5{
+	background-image:url('images/mesvak5.png');
+}
+
+div.banner div.scroll > div.adv6{
+	background-image:url('images/mesvak6.png');
+}
+
+div.banner div.scroll > div.adv7{
+	background-image:url('images/mesvak7.png');
+}
+
+div.banner ul.btn{
+	list-style-type:none;
+	width:200px;
+	height:16px;
+	position:absolute;
+	right:0;
+	bottom:0px;
+	visibility:hidden;
+
+}
+
+div.banner ul.btn li{
+	float:left;
+	width:30px;
+	height:10px;
+	margin-right:5px;
+	background-color:#333;
+	cursor:pointer;
+	-webkit-transition:all 1000ms;
+}
+
+div.banner ul.btn li:hover,
+div.banner ul.btn li.active{
+	background-color:#39D;
+	height:22px;
+	margin-top:-6px;
+	-webkit-transition-duration:300ms;
+}
+/********************************* END BANNMER AUTO*******************************/

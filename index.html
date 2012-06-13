@@ -7,6 +7,7 @@
 <link type="text/css" rel="stylesheet" href="1style.css" />
 <link type="text/css" rel="stylesheet" href="style.css" />
 <link type="image/x-icon" rel="shortcut icon" href="favicon.ico" />
+<script type="text/javascript" src="banner.js" ></script>
 <!--[if IE]>
 		<script type="text/javascript" src="js/html5.js"></script>
 	<![endif]-->
@@ -40,6 +41,7 @@ function displayResult(x)
 	document.getElementById(x).style.height='420px';
 	document.getElementById(x).style.marginTop='10px';
 	document.getElementById(x).style.opacity='1';
+	document.getElementById(x).style.visibility='visible';/*for IE*/
 	document.getElementById('header').style.opacity='0.2';
 	document.getElementById('bg-footer').style.opacity='0.2';
 }
@@ -49,6 +51,7 @@ function winclose(x)
 	document.getElementById(x).style.height='0px';
 	document.getElementById(x).style.marginTop='0px';
 	document.getElementById(x).style.opacity='0';
+	document.getElementById(x).style.visibility='hidden';/*for IE*/
 	document.getElementById('header').style.opacity='1';
 	document.getElementById('bg-footer').style.opacity='1';
 
@@ -105,18 +108,10 @@ function displayImage(z)
 				  <!--*****************************SLIDE***********************************-->
 					  <div id="slid" class="cover">
 						<div class="train" id="train">
-							<div id="img1">
-								<img src="images/1.png" width="390" height="250" alt="slide" title="" />
-							</div>
-							<div id="img2">
-								<img src="images/2.png" width="390" height="250" alt="slide2" title="" />
-							</div>
-							<div id="img3">
-								<img src="images/3.png" width="390" height="250" alt="slide3" title="" />
-							</div>
-							<div id="img4">
-								<img src="images/4.png" width="390" height="250" alt="slide4" title="" />
-							</div>
+							<div id="img1"></div>
+							<div id="img2"></div>
+							<div id="img3"></div>
+							<div id="img4"></div>
 						</div>
 							<ul class="cover">
 								<li onclick="displayImage('img1')"></li>
@@ -207,9 +202,7 @@ function displayImage(z)
 4- بیماری و عفونت لثه
 
 			</div>
-			<div class="boyebad-left left">
-				<img src="images/booye-bad-dahan.png" width="350" height="233" />
-			</div>
+			<div class="boyebad-left left"></div>
 		</div>
 		<div class="window cover" id="window-darman">
 			<p class="close">
@@ -222,9 +215,7 @@ function displayImage(z)
 رعایت بهداشت و جلوگیری از تشکیل پلاک دندانی نه تنها باعث پیشگیری از بروز بیماریهای لثه و دندان می شود بلکه نقش عمده ای نیز در کاهش بوی نامطبوع دهان دارد. بنابراین با اتخاذ یک روش مناسب در بهداشت دهان و همچنین مراجعه به دندانپزشک می توانید تنفس خود را خوشبو سازید.
 
 			</div>
-			<div class="darman-left left">
-				<img src="images/darman.png" width="350" height="233" />
-			</div>
+			<div class="darman-left left"></div>
 		</div>
 		<div class="window cover" id="window-pusidegy">
 			<p class="close">
@@ -245,21 +236,39 @@ function displayImage(z)
 			<div class="share-property ml11">
 				<h1>جنس مسواک</h1>
 
-* مسواک چربی : در گذشته بسیار معمول بوده و امروزه مصرف آن هنوز هم در میان اعراب مشاهده می شود. این مسواک در واقع ریشه یک نوع گیاه است که پس از بریدن و قطعه قطعه کردن بعنوان مسواک و خلال استفاده می شده است.<br />
+* مسواک چوبی : در واقع ریشه یک نوع گیاه است که پس از بریدن و قطعه قطعه کردن بعنوان مسواک و خلال استفاده می شده است.<br />
 
-* مسواک موشی : که از موی حیوانات ساخته می شده است. این نوع به علت آنکه بیش از حد دچار انعطاف و نرمی شده و بسیار زود نیز کثیف می شود استفاده از آن تقریباً کنار گذاشته شده است.<br />
+* مسواک نایلونی : تقریباً تمامی مسواکهای موجود در بازار از این جنس است و به سه دسته تقسیم می شود:<br />
 
-* مسواک نایلونی : که تقریباً تمامی مسواکهای موجود در بازار از این جنس است و معایب انواع قبلی را از نظر سختی به سه دسته تقسیم می کنند:
-
-1- نرم Soft
-2- متوسط Medium
-3- سخت Hard
-
-افراد عادی بهتر است از نوع متوسط Medium استفاده کنند. در ناراحتی های لثه ای باید از مسواکهای نرم Soft استفاده نمود و افراد مبتلا به صرع که داروی دیلانتین مصرف می کنند و دارای لثه های متورم، حجیم و سخت هستند باید از نوع Hared استفاده کنند. این نوع مسواکها (نرم و سخت) توسط دندانپزشک باید تجویز گردد.
-
+1- نرم Soft :مخصوص افراد مبتلا به صرع <br />
+2- متوسط Medium : مخصوص افراد عادی <br />
+3- سخت Hard : مخصوص افرادی که لثه های متورم، حجیم و سخت دارند
 			</div>
-			<div class="about-left left">
+			<div class="mesvak-left left">
 			
+				<div class="banner">
+					<div class="scroll">
+						<div class="adv1"></div>
+						<div class="adv2"></div>
+						<div class="adv3"></div>
+						<div class="adv4"></div>
+						<div class="adv5"></div>
+						<div class="adv6"></div>
+						<div class="adv7"></div>
+					</div>
+					<ul class="btn">
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+					
+				</div>
+				<input type="button" value="قبلی" onclick="prvSlide()" />
+				<input type="button" value="بعدی" onclick="nextSlide()" />
 			</div>
 		</div>
 		
