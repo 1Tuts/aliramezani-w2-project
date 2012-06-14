@@ -256,8 +256,7 @@ p.close a:hover
 	width:21px;
 	height:20px;
 	margin-right:2px;
-	
-	background-image:url('images/btn-slide.png');
+	background-image:url('images/btn-slides.png');
 	background-repeat:no-repeat;
 }
 
@@ -363,7 +362,6 @@ p.close a:hover
 	background-image:url('images/next.png');
 	background-repeat:no-repeat;
 	z-index:10;
-	
 	cursor:pointer;
 	height:40px;
 	position:absolute;
@@ -375,7 +373,6 @@ p.close a:hover
 	background-image:url('images/prv.png');
 	background-repeat:no-repeat;
 	z-index:10;
-	
 	cursor:pointer;
 	height:40px;
 	position:absolute;
@@ -385,7 +382,6 @@ p.close a:hover
 
 button {
 	background-color:#95a207;
-	
 	padding: 2px 15px 2px 15px;
 	border: none;
 	white-space: nowrap;
@@ -396,7 +392,6 @@ button {
 .boyebad-left{
 	background-image:url('images/booye-bad-dahan.png');
 	background-repeat:no-repeat;
-	
 	margin-top:-310px;
 	margin-left:40px;
 	width:350px;
