@@ -530,27 +530,23 @@ div.banner ul.btn li.active{
 	-o-transition: all 1.5s ease;
 	transition: all 1.5s ease;
 	
-	background-color:#141414;
-	
-/*	background: #000 url('images/8bcLQqF.png') no-repeat;
-	background-position:right;*/
+	background:#bbb url('images/8bcLQqF.png') no-repeat;
 	border: 1px solid #c8c8c8;
-/*	color: #777;*/
-	font: 13px Helvetica, Arial, sans-serif;
+	font: 17px Helvetica, Arial, sans-serif;
 	margin: 0 0 10px;
-	padding: 15px 10px 15px 40px;
-	/*width: 80%;*/
+	padding: 15px 35px 15px 40px;
 	color: #fff;
-	text-shadow: 1px 1px 0 rgba(5,5,5,1.0);
+	text-shadow:-1px -1px 0px #666,1px 1px 0px #aaa;
 }
 
 .name-contact:focus , .email-contact:focus , .textarea:focus
 {
 	background-color: #fff;
-	color:#000;
-	border: 1px solid #888;
+	color:#aaa;
+	text-shadow:none;
 	outline: none;
 }
 
-/*.name-contact { background-position:10px 10px !important }
-.email-contact { background-position: 10px -53px !important }*/
+.name-contact { background-position:230px 15px !important }
+.email-contact { background-position:230px -65px !important }
+.textarea { background-position:335px -110px !important }
