@@ -1,19 +1,28 @@
 @charset "utf-8";
 /* CSS Document */
 
+/*@font-face {
+    font-family: 'My Custom Font2';
+    src: url('bnazanin-webfont.eot');
+    src: url('bnazanin-webfont.eot?#iefix') format('eot'),
+         url('bnazanin-webfont.woff') format('woff'),
+         url('bnazanin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}*/
 @font-face {
     font-family: "My Custom Font";
     src: url('IranNastaliq.ttf') format("truetype");
 }
 
-@font-face {
+/*@font-face {
 	font-family: "My Custom Font2";
-    src: url('BNazanin.ttf') format("truetype");
+    src: url('bnazanin-webfont.ttf') format("truetype");
 }
 
 .customfont { 
     font-family: "My Custom Font2";
-}
+}*/
 
 body{
 	
@@ -301,7 +310,7 @@ p.close a:hover
 	height:400px;
 	
 	font-size:16px;
-	font-family: "My Custom Font2";
+	font-family: Tahoma, Geneva, sans-serif;
 	line-height:1.7;
 	text-align:justify;
 	color:#777;
@@ -533,8 +542,7 @@ div.banner ul.btn li.active{
 	background:#bbb url('images/8bcLQqF.png') no-repeat;
 	border: 1px solid #c8c8c8;
 	font: 17px Helvetica, Arial, sans-serif;
-	margin: 0 0 10px;
-	padding: 15px 35px 15px 40px;
+	padding: 10px 35px 10px 40px;
 	color: #fff;
 	text-shadow:-1px -1px 0px #666,1px 1px 0px #aaa;
 }
@@ -547,6 +555,6 @@ div.banner ul.btn li.active{
 	outline: none;
 }
 
-.name-contact { background-position:230px 15px !important }
-.email-contact { background-position:230px -65px !important }
+.name-contact { background-position:230px 10px !important }
+.email-contact { background-position:230px -70px !important }
 .textarea { background-position:335px -110px !important }
