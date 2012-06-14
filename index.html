@@ -37,6 +37,11 @@ function display(y)
 
 function resetWindow(x)
 {
+/*	document.getElementById('homepage').style.opacity='0';
+	document.getElementById('container').style.opacity='1';
+	document.getElementById('bg-footer').style.opacity='1';
+	document.getElementById('bg-footer').style.zIndex='-1';*/
+	
 	document.getElementById('window-home').style.opacity='0';
 	document.getElementById('window-about').style.opacity='0';
 	document.getElementById('window-galery').style.opacity='0';
@@ -108,12 +113,18 @@ function displayImage(z)
 	document.getElementById(z).style.opacity='1';
 }
 
+/*function homepage()
+{
+	document.getElementById('container').style.opacity='0.3';
+	document.getElementById('bg-footer').style.opacity='0.3';
+}*/
+
 </script>
 </head>
 
-<body>
+<body onLoad="homepage()">
 
-<section class="container">
+<section class="container" id="container">
 
 	<header class="header change-opacity cover" id="header">
 	
@@ -210,7 +221,7 @@ function displayImage(z)
                     <div class="share-property ml11 f4"> 
 						<h1 class="f4">تماس با دکتر علی رمضانی</h1>
 						آدرس مطب : <br />
-						 استان خراسان رضوی , شهرستان گناباد , میدان امام , طبقه فوقانی چاپخانه مرکزی  <br /><a href="http://maps.google.com/maps?hl=en&tab=wl" target="_new">(نقشه مسیر)</a><br />
+						 استان خراسان رضوی , شهرستان گناباد , میدان امام , طبقه فوقانی چاپخانه مرکزی  <br /><a href="http://maps.google.com/maps?q=Gon%C4%81b%C4%81d,+Khorasan+Razavi,+Iran&hl=en&ie=UTF8&sll=37.0625,-95.677068&sspn=39.371738,86.572266&oq=gonabad+khora&hnear=Gon%C4%81b%C4%81d,+Khorasan+Razavi,+Iran&t=m&z=13" target="_new">(نقشه مسیر)</a><br />
 						تلفن : <br />
 						55 56 722 – 533 - 98+  <br />
 						<h4 class="f3">راه میانبر تماس با دکتر :  </h4>
@@ -330,5 +341,6 @@ function displayImage(z)
 	</div>
 </footer>
 <div class="back-image"></div>
+<!--<div class="home-page" id="homepage"></div>-->
 </body>
 </html>
