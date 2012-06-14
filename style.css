@@ -10,6 +10,25 @@
     font-weight: normal;
     font-style: normal;
 }*/
+									 /* add font B Roya				 by somaye  */
+/*@font-face {
+    font-family: 'My Custom Font2'; 					
+    src: url('BROYA.TTF') format("truetype");
+    src: url('BROYABD.TTF') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+									 /* add font B mitra				 by somaye  */
+/*@font-face {
+    font-family: 'My Custom Font2'; 					
+    src: url('BMITRA.TTF') format("truetype");
+    src: url('BMITRABD.TTF') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+
 @font-face {
     font-family: "My Custom Font";
     src: url('IranNastaliq.ttf') format("truetype");
@@ -26,7 +45,7 @@
 
 body{
 	
-	font-family:Tahoma;
+	/*font-family:Tahoma;*/
 	direction:rtl;
 }
 
