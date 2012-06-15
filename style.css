@@ -291,9 +291,25 @@ p.close a:hover
 	width:21px;
 	height:20px;
 	margin-right:2px;
-	background-image:url('images/btn-slides.png');
+	/* background-image:url('images/btn1.png');  */		 /*	 by somaye 	 */
 	background-repeat:no-repeat;
 }
+
+.btn1{
+	background-image:url('images/btn-1.png');	/* or    background-image:url('images/btn1.png'); */
+}
+
+.btn2{
+	background-image:url('images/btn-2.png');	/* or    background-image:url('images/btn2.png'); */
+}
+
+.btn3{
+	background-image:url('images/btn-3.png');	/* or    background-image:url('images/btn3.png'); */
+}
+
+.btn4{
+	background-image:url('images/btn-4.png');	/* or    background-image:url('images/btn4.png'); */
+} 
 
 #slid li:hover{
 	cursor:pointer;
