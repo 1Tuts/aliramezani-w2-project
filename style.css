@@ -62,7 +62,7 @@ body{
 	background-position:center top;
 }
 
-/*.home-page{
+.home-page{
 	background-image:url('images/welcome.png');
 	background-repeat:no-repeat;
 	background-position:center top;
@@ -76,7 +76,7 @@ body{
 	top        : 0;
 	bottom     : 0;
 	margin     : auto;
-}*/
+}
 
 a{
 	text-decoration:none;

@@ -2,7 +2,7 @@
 <html lang="fa-IR">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>DrAliRamezani</title>
+<title>Dr.AliRamezani</title>
 <link type="text/css" rel="stylesheet" href="reset.css" />
 <link type="text/css" rel="stylesheet" href="1style.css" />
 <link type="text/css" rel="stylesheet" href="style.css" />
@@ -38,10 +38,10 @@ function display(y)
 function resetWindow(x)
 {
 	/* FOR HOME PAGE */
-/*	document.getElementById('homepage').style.opacity='0';
+	document.getElementById('homepage').style.opacity='0';
 	document.getElementById('container').style.opacity='1';
 	document.getElementById('bg-footer').style.opacity='1';
-	document.getElementById('bg-footer').style.zIndex='-1';*/
+	document.getElementById('homepage').style.zIndex='-1';
 	
 	document.getElementById('window-home').style.opacity='0';
 	document.getElementById('window-about').style.opacity='0';
@@ -114,16 +114,16 @@ function displayImage(z)
 	document.getElementById(z).style.opacity='1';
 }
 
-/*function homepage()
+function homepage()
 {
 	document.getElementById('container').style.opacity='0.3';
 	document.getElementById('bg-footer').style.opacity='0.3';
-}*/
+}
 
 </script>
 </head>
 
-<body>
+<body onLoad="homepage()">
 
 <section class="container" id="container">
 
@@ -350,6 +350,6 @@ function displayImage(z)
 	</div>
 </footer>
 <div class="back-image"></div>
-<!--<div class="home-page" id="homepage"></div>-->
+<div class="home-page" id="homepage"></div>
 </body>
 </html>
