@@ -78,6 +78,19 @@ body{
 	margin     : auto;
 }
 
+p.close-home a{
+	background-image:url('images/close-home.png');
+	background-repeat:no-repeat;
+
+	width:40px;
+	height:40px;
+	position:absolute;
+	top:35px;
+	left:473px;
+	cursor:pointer;
+
+}
+
 a{
 	text-decoration:none;
 	color:#fff;
