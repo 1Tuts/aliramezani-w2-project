@@ -40,7 +40,7 @@ function resetWindow(x)
 {
 	/* FOR HOME PAGE */
 	document.getElementById('homepage').style.opacity='0';
-	document.getElementById('container').style.opacity='1';
+	document.getElementById('header').style.opacity='1';
 	document.getElementById('bg-footer').style.opacity='1';
 	document.getElementById('homepage').style.zIndex='-1';
 	
@@ -72,14 +72,14 @@ function resetWindow(x)
 	document.getElementById('window-pusidegy').style.height='0px';
 	document.getElementById('window-mesvak').style.height='0px';
 
-	document.getElementById('window-home').style.marginTop='0px';
+/*	document.getElementById('window-home').style.marginTop='0px';
 	document.getElementById('window-about').style.marginTop='0px';
 	document.getElementById('window-galery').style.marginTop='0px';
 	document.getElementById('window-contact').style.marginTop='0px';
 	document.getElementById('window-boyebad').style.marginTop='0px';
 	document.getElementById('window-darman').style.marginTop='0px';
 	document.getElementById('window-pusidegy').style.marginTop='0px';
-	document.getElementById('window-mesvak').style.marginTop='0px';
+	document.getElementById('window-mesvak').style.marginTop='0px';*/
 	
 	displayResult(x);
 		
@@ -89,7 +89,7 @@ function displayResult(x)
 {
 	document.getElementById(x).style.opacity='1';
 	document.getElementById(x).style.height='420px';
-	document.getElementById(x).style.marginTop='10px';
+/*	document.getElementById(x).style.marginTop='10px';*/
 	document.getElementById(x).style.visibility='visible';/*for IE*/
 	document.getElementById('header').style.opacity='0.2';
 	document.getElementById('bg-footer').style.opacity='0.2';
@@ -98,7 +98,7 @@ function displayResult(x)
 function winclose(x)
 {
 	document.getElementById(x).style.height='0px';
-	document.getElementById(x).style.marginTop='0px';
+/*	document.getElementById(x).style.marginTop='0px';*/
 	document.getElementById(x).style.opacity='0';
 	document.getElementById(x).style.visibility='hidden';/*for IE*/
 	document.getElementById('header').style.opacity='1';
