@@ -63,7 +63,7 @@ body{
 }
 
 .home-page{
-	background-image:url('images/welcome.png');
+	background-image:url('images/welcome2.png');
 	background-repeat:no-repeat;
 	background-position:center top;
 	
@@ -432,7 +432,7 @@ p.close a:hover
 }
 
 button {
-	background-image:url('images/submit1.png');   	/* background-color:#95a207; */		/*		 by somaye 		*/
+	background-image:url('images/submit.png');   	/* background-color:#95a207; */		/*		 by somaye 		*/
 	background-repeat:no-repeat;
 	padding: 5px 40px 4px 35px; 
 	border: none;
