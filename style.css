@@ -57,9 +57,9 @@ body{
 	bottom:0;
 	z-index:-1;
 	
-	background:transparent url('images/background_1.png') repeat-x;
-	background-size:6%;
-	background-position:center top;
+	background:transparent url('images/bg-main.png') repeat-x;
+	background-size:contain;
+/*	background-position:center top;*/
 }
 
 .home-page{
