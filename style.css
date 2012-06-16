@@ -459,6 +459,10 @@ button {
 	border-radius:2px; 
 }
 
+button:focus{
+	outline:none;
+}
+
 .boyebad-left{
 	background-image:url('images/booye-bad-dahan.png');
 	background-repeat:no-repeat;
