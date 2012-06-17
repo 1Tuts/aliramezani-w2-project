@@ -398,8 +398,11 @@ p.close a:hover {
 	line-height:3;
 }
 
-.email,.email a{
-	text-align:left;
+.email{
+	direction:ltr;
+}
+
+.email a{
 	color:#F47F20;	
 }
 
@@ -607,7 +610,7 @@ div.banner ul.btn li.active{
 	background:#333 url('images/8bcLQqF.png') no-repeat;
 	border: 1px solid #c8c8c8;
 	font: 17px Helvetica, Arial, sans-serif;
-	padding: 10px 35px 10px 40px;
+	padding: 10px 35px 10px 25px;
 	color: rgba(0,0,0,0.3);
 	text-shadow:1px 1px 0px #ccc,-1px -1px 0px #222;
 }
@@ -620,6 +623,6 @@ div.banner ul.btn li.active{
 	outline: none;
 }
 
-.name-contact { background-position:230px 10px !important }
-.email-contact { background-position:230px -70px !important }
-.textarea { background-position:335px -110px !important }
+.name-contact { background-position:225px 10px !important }
+.email-contact { background-position:325px -70px !important }
+.textarea { background-position:330px -110px !important }
