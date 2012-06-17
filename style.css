@@ -404,6 +404,33 @@ p.close a:hover {
 
 .email a{
 	color:#F47F20;	
+	line-height:1.9;
+	padding-left:21px;
+}
+
+.email span.img-dr a{
+	padding-left:30px;
+}
+
+.email span.img-dr{
+	background-image:url('images/img-dr.png');
+	background-repeat:no-repeat;
+}
+
+.email span.img-yahoo{
+	background-image:url('images/icon_yahoo.png');
+	background-repeat:no-repeat;
+	background-position:left bottom;
+	
+	margin-left:10px;
+}
+
+.email span.img-google{
+	background-image:url('images/icon_gtalk.png');
+	background-repeat:no-repeat;
+	background-position:left center;
+
+	margin-left:10px;
 }
 
 .left-contact{
