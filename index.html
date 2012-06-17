@@ -218,15 +218,15 @@ function homepage()
 			</p>
                 	<div class="left-contact w12 left f3">				
          				
-						<form name="contact-form" class="contact-form" action="" method="post">
+						<form name="contact-form" class="contact-form" action="mail.php" method="post">
 							<div class="content">
 								<label>نام:</label><br />
-								<input name="name" type="text" class="name-contact" /><br />
+								<input name="fullName" type="text" class="name-contact" /><br />
 								<label> ایمیل:</label><br />
-								<input name="email" type="text" class="email-contact" /><br />
+								<input name="mail" type="text" class="email-contact" size="40" /><br />
 								<label>پیام:</label><br />
-								<textarea rows="4" cols="30" name="cnt" class="textarea"></textarea><br /> <br />                        
-	                            <button type="submit"></button>
+								<textarea rows="4" cols="30" name="msg" class="textarea"></textarea><br /> <br />                        
+	                            <button type="submit" name="sub" class="ok"></button>
 							</div>
 						</form>
 
