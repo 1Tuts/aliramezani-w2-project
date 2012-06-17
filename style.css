@@ -59,7 +59,6 @@ body{
 	
 	background:transparent url('images/bg-main.png') repeat-x;
 	background-size:contain;
-/*	background-position:center top;*/
 }
 
 .home-page{
@@ -101,7 +100,7 @@ a{
 	color:#fff;
 }
 
-.header:hover{
+/*.header:hover{
 	opacity:1;
 }/*kar nemikonad*/
 
@@ -151,10 +150,8 @@ a{
 }
 
 .menu li a:hover{
-/*	background:transparent no-repeat   url('images/menu_item_background.png');*/
 	border-radius:15px;
 	background-color:#b8c70e;
-	
 }
 /************************* END MENU *********************/
 /*************************** START home-left **************************/
@@ -165,7 +162,7 @@ a{
 /*************************** END home-left **************************/
 /*************************** START FOOTER **************************/
 .bg-footer{
-	height:140px;/*delete*/
+	height:140px;
 	position:fixed;
 	left:0;
 	bottom:0;
@@ -187,7 +184,6 @@ a{
 	background:url('images/logo.png');
 	background-repeat:no-repeat;
 	background-size:120px 70px;
-	
 }
 /*************************** END FOOTER **************************/
 /***************************START FOOTER MENU **************************/
@@ -248,8 +244,7 @@ a{
 	-o-transition:all 1.5s;/* Opera */
 }
 
-p.close a 
-{ 
+p.close a { 
 	float: right; 
 	width: 15px; 
 	height: 15px; 
@@ -258,8 +253,7 @@ p.close a
 	background:url("images/window_close.png") no-repeat; 
 }
 
-p.close a:hover 
-{ 
+p.close a:hover { 
 	background-position: 0 -15px;
 	cursor:pointer; 
 }
@@ -309,24 +303,24 @@ p.close a:hover
 	width:21px;
 	height:20px;
 	margin-right:2px;
-	/* background-image:url('images/btn1.png');  */		 /*	 by somaye 	 */
-	background-repeat:no-repeat;
+	
+	/*background-repeat:no-repeat;*/
 }
 
 .btn1{
-	background-image:url('images/btn-1.png');	/* or    background-image:url('images/btn1.png'); */
+	background-image:url('images/btn-1.png');
 }
 
 .btn2{
-	background-image:url('images/btn-2.png');	/* or    background-image:url('images/btn2.png'); */
+	background-image:url('images/btn-2.png');
 }
 
 .btn3{
-	background-image:url('images/btn-3.png');	/* or    background-image:url('images/btn3.png'); */
+	background-image:url('images/btn-3.png');
 }
 
 .btn4{
-	background-image:url('images/btn-4.png');	/* or    background-image:url('images/btn4.png'); */
+	background-image:url('images/btn-4.png');
 } 
 
 #slid li:hover{
@@ -339,6 +333,7 @@ p.close a:hover
 	height:220px;
 	
 	background-image:url('images/1.png');
+	background-repeat:no-repeat;
 }
 
 #img2{
@@ -348,6 +343,7 @@ p.close a:hover
 	height:220px;
 	
 	background-image:url('images/2.png');
+	background-repeat:no-repeat;
 }
 
 #img3{
@@ -357,6 +353,7 @@ p.close a:hover
 	height:220px;
 	
 	background-image:url('images/3.png');
+	background-repeat:no-repeat;
 }
 
 #img4{
@@ -366,6 +363,7 @@ p.close a:hover
 	height:220px;
 	
 	background-image:url('images/4.png');
+	background-repeat:no-repeat;
 }
 
 
@@ -382,7 +380,6 @@ p.close a:hover
 	line-height:1.7;
 	text-align:justify;
 	color:#777;
-
 }
 
 .left-contact{
@@ -430,7 +427,7 @@ p.close a:hover
 .mesvak-left .next{
 	background-image:url('images/next.png');
 	background-repeat:no-repeat;
-	z-index:10;
+	z-index:22;
 	cursor:pointer;
 	height:40px;
 	position:absolute;
@@ -441,7 +438,7 @@ p.close a:hover
 .mesvak-left .prv{
 	background-image:url('images/prv.png');
 	background-repeat:no-repeat;
-	z-index:10;
+	z-index:22;
 	cursor:pointer;
 	height:40px;
 	position:absolute;
@@ -450,7 +447,7 @@ p.close a:hover
 }
 
 button {
-	background-image:url('images/submit.png');   	/* background-color:#95a207; */		/*		 by somaye 		*/
+	background-image:url('images/submit.png');
 	background-repeat:no-repeat;
 	padding: 5px 40px 4px 35px; 
 	border: none;
@@ -516,7 +513,6 @@ div.banner div.scroll{
 	-ms-transition-timing-function:cubic-bezier(0,0.7,0.3,1);
 	-o-transition-timing-function:cubic-bezier(0,0.7,0.3,1);
 	transition-timing-function:cubic-bezier(0,0.7,0.3,1);
-	
 }
 
 div.banner div.scroll > div{
@@ -554,7 +550,7 @@ div.banner div.scroll > div.adv7{
 
 div.banner ul.btn{
 	list-style-type:none;
-	width:200px;
+	width:280px;
 	height:16px;
 	position:absolute;
 	right:0;
