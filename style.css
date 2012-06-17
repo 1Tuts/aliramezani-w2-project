@@ -479,11 +479,11 @@ p.close a:hover {
 button {
 	background-image:url('images/submit.png');
 	background-repeat:no-repeat;
-	padding: 5px 40px 4px 35px; 
+	
+	height:25px;
+	width:75px;
 	border: none;
-	white-space: nowrap;
-	text-align:center;
-	border-radius:2px; 
+	cursor:pointer;
 }
 
 button:focus{
@@ -650,6 +650,6 @@ div.banner ul.btn li.active{
 	outline: none;
 }
 
-.name-contact { background-position:225px 10px !important }
-.email-contact { background-position:325px -70px !important }
-.textarea { background-position:330px -110px !important }
+.name-contact { background-position:215px 10px !important }
+.email-contact { background-position:315px -70px !important }
+.textarea { background-position:320px -110px !important }
