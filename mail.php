@@ -11,7 +11,7 @@
 		$name = $_POST['fullName'];
 		$mail = $_POST['mail'];
 		$msg = $_POST['msg'];
-		if( @mail('zohreh_zahedi16@yahoo.com','Name: '.$name. "\n" .$msg,"From:".$mail) ){
+		if( @mail('zohreh_zahedi16@yahoo.com','Name: '.$name. "\n",'' .$msg,"From:".$mail) ){
 			echo '<h1 style="text-align:center;">Your massage has been sent. Please be patient for the answer. thank you!</h1>';
 		}else{
 			echo '<h1 style="text-align:center;">Your massage has not been sent. Please fill the form again. thank you!</h1>';
