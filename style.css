@@ -653,3 +653,27 @@ div.banner ul.btn li.active{
 .name-contact { background-position:215px 10px !important }
 .email-contact { background-position:315px -70px !important }
 .textarea { background-position:320px -110px !important }
+
+/* 				galery				*/
+.bf{
+	float:right;
+	margin:10px;
+	direction:ltr;
+}
+
+.left-galery{
+	margin-top:80px;
+	margin-right:70px;	
+	border:1px solid #666;
+}
+
+.right-galery{
+	margin-top:80px;
+	margin-left:70px;
+	border:1px solid #666;	
+}
+
+.center-galery{
+	margin-top:20px;
+	border:1px solid #666;
+}
