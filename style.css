@@ -72,7 +72,7 @@ a{
 	margin-top:5px;
 	min-height:120px;
 	
-	background-image:url('images/logo.png');
+	background-image:url('images/logo2.png');
 	background-repeat:no-repeat;
 	
 }
@@ -151,9 +151,9 @@ a{
 	margin-left:25px;
 	min-height:70px;
 	
-	background:url('images/logo.png');
+	background:url('images/logo2.png');
 	background-repeat:no-repeat;
-	background-size:120px 70px;
+	background-size:80px 70px;
 }
 /*************************** END FOOTER **************************/
 /***************************START FOOTER MENU **************************/
