@@ -61,6 +61,8 @@ function display(y)
 		x='window-pusidegy';
 	else if(y==8)
 		x='window-mesvak';
+	else if(y==9)
+		x='window-map';
 		
 	resetWindow(x);	
 }
@@ -81,6 +83,7 @@ function resetWindow(x)
 	document.getElementById('window-darman').style.opacity='0';
 	document.getElementById('window-pusidegy').style.opacity='0';
 	document.getElementById('window-mesvak').style.opacity='0';
+	document.getElementById('window-map').style.opacity='0';
 	/* FOR IF */
 /*	filter:alpha(opacity=80);*/
 	document.getElementById('window-home').style.visibility='hidden';
@@ -91,6 +94,7 @@ function resetWindow(x)
 	document.getElementById('window-darman').style.visibility='hidden';
 	document.getElementById('window-pusidegy').style.visibility='hidden';
 	document.getElementById('window-mesvak').style.visibility='hidden';
+	document.getElementById('window-map').style.visibility='hidden';
 	/**/
 	document.getElementById('window-home').style.height='0px';
 	document.getElementById('window-about').style.height='0px';
@@ -100,6 +104,7 @@ function resetWindow(x)
 	document.getElementById('window-darman').style.height='0px';
 	document.getElementById('window-pusidegy').style.height='0px';
 	document.getElementById('window-mesvak').style.height='0px';
+	document.getElementById('window-map').style.height='0px';
 
 /*	document.getElementById('window-home').style.marginTop='0px';
 	document.getElementById('window-about').style.marginTop='0px';
