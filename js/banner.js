@@ -2,6 +2,7 @@
 var picWidth = 390,
 currentSlide = 0,
 divScrl, liBtns, picsLen, go2slide, nextSlide, prvSlide;
+var mywindow=new Array("window-home","window-about","window-galery","window-contact","window-boyebad","window-darman","window-pusidegy","window-mesvak","window-map");
 
 window.onload=function(){
 	
@@ -45,25 +46,37 @@ window.onload=function(){
 
 function display(y)
 {	
-	if (y==1)
-		x='window-home';
-	else if(y==2)
-		x='window-about';
-	else if(y==3)
-		x='window-galery';
-	else if(y==4)
-		x='window-contact';
-	else if(y==5)
-		x='window-boyebad';
-	else if(y==6)
-		x='window-darman';
-	else if(y==7)
-		x='window-pusidegy';
-	else if(y==8)
-		x='window-mesvak';
-	else if(y==9)
-		x='window-map';
-		
+	switch(y)
+	{
+		case 1: 
+			x='window-home';
+			break;
+		case 2:
+			x='window-about';
+			break;
+		case 3:
+			x='window-galery';
+			break;
+		case 4:
+			x='window-contact';
+			break;
+		case 5:
+			x='window-boyebad';
+			break;
+		case 6:
+			x='window-darman';
+			break;
+		case 7:
+			x='window-pusidegy';
+			break;
+		case 8:
+			x='window-mesvak';
+			break;
+		case 9:
+			x='window-map';
+			break;
+	}
+
 	resetWindow(x);	
 }
 
@@ -75,46 +88,13 @@ function resetWindow(x)
 	document.getElementById('bg-footer').style.opacity='1';
 	document.getElementById('homepage').style.zIndex='-1';
 	
-	document.getElementById('window-home').style.opacity='0';
-	document.getElementById('window-about').style.opacity='0';
-	document.getElementById('window-galery').style.opacity='0';
-	document.getElementById('window-contact').style.opacity='0';
-	document.getElementById('window-boyebad').style.opacity='0';
-	document.getElementById('window-darman').style.opacity='0';
-	document.getElementById('window-pusidegy').style.opacity='0';
-	document.getElementById('window-mesvak').style.opacity='0';
-	document.getElementById('window-map').style.opacity='0';
-	/* FOR IF */
-/*	filter:alpha(opacity=80);*/
-	document.getElementById('window-home').style.visibility='hidden';
-	document.getElementById('window-about').style.visibility='hidden';
-	document.getElementById('window-galery').style.visibility='hidden';
-	document.getElementById('window-contact').style.visibility='hidden';
-	document.getElementById('window-boyebad').style.visibility='hidden';
-	document.getElementById('window-darman').style.visibility='hidden';
-	document.getElementById('window-pusidegy').style.visibility='hidden';
-	document.getElementById('window-mesvak').style.visibility='hidden';
-	document.getElementById('window-map').style.visibility='hidden';
-	/**/
-	document.getElementById('window-home').style.height='0px';
-	document.getElementById('window-about').style.height='0px';
-	document.getElementById('window-galery').style.height='0px';
-	document.getElementById('window-contact').style.height='0px';
-	document.getElementById('window-boyebad').style.height='0px';
-	document.getElementById('window-darman').style.height='0px';
-	document.getElementById('window-pusidegy').style.height='0px';
-	document.getElementById('window-mesvak').style.height='0px';
-	document.getElementById('window-map').style.height='0px';
+	for(i=0;i<9;i++)
+	{
+		document.getElementById(mywindow[i]).style.opacity='0';	
+		document.getElementById(mywindow[i]).style.visibility='hidden';/*for IE*/
+		document.getElementById(mywindow[i]).style.height='0px';
+	}
 
-/*	document.getElementById('window-home').style.marginTop='0px';
-	document.getElementById('window-about').style.marginTop='0px';
-	document.getElementById('window-galery').style.marginTop='0px';
-	document.getElementById('window-contact').style.marginTop='0px';
-	document.getElementById('window-boyebad').style.marginTop='0px';
-	document.getElementById('window-darman').style.marginTop='0px';
-	document.getElementById('window-pusidegy').style.marginTop='0px';
-	document.getElementById('window-mesvak').style.marginTop='0px';*/
-	
 	displayResult(x);
 		
 }
@@ -123,7 +103,6 @@ function displayResult(x)
 {
 	document.getElementById(x).style.opacity='1';
 	document.getElementById(x).style.height='420px';
-/*	document.getElementById(x).style.marginTop='10px';*/
 	document.getElementById(x).style.visibility='visible';/*for IE*/
 	document.getElementById('header').style.opacity='0.2';
 	document.getElementById('bg-footer').style.opacity='0.2';
@@ -132,7 +111,6 @@ function displayResult(x)
 function winclose(x)
 {
 	document.getElementById(x).style.height='0px';
-/*	document.getElementById(x).style.marginTop='0px';*/
 	document.getElementById(x).style.opacity='0';
 	document.getElementById(x).style.visibility='hidden';/*for IE*/
 	document.getElementById('header').style.opacity='1';
