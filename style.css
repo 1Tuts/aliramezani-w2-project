@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: "My Custom Font";
-    src: url('IranNastaliq.ttf') format("truetype");
+    src: url('font/IranNastaliq.ttf') format("truetype");
 }
 
 body{

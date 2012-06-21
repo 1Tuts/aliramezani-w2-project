@@ -12,9 +12,10 @@
 	<![endif]-->
 <script type="text/javascript" src="js/mail.js"></script>
 <script type="text/javascript" src="js/banner.js" ></script>
-<script type="text/javascript" src="jquery-1.6.1.min.js"></script>
-<script type="text/javascript" src="jquery-ui-1.8.13.custom.min.js"></script>
-<script type="text/javascript" src="jquery.beforeafter-1.4.js"></script>
+<script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.8.13.custom.min.js"></script>
+<script type="text/javascript" src="js/jquery.beforeafter-1.4.js"></script>
+
 <script type="text/javascript">
 $(function(){
 	$('#ba1').beforeAfter();
@@ -23,8 +24,6 @@ $(function(){
 });
 
 </script>
-
-
 
 </head>
 <body>
@@ -84,6 +83,7 @@ $(function(){
 								<li class="btn1" onclick="displayImage('img4')"></li>
 							</ul>
 					</div>
+				 <!--*****************************END SLIDE***********************************-->
                  </div>        
 				<div class="share-property ml11"><h1>به سایت دکتر علی رمضانی خوش آمدید .</h1>
 					دکتر علی رمضانی با 10 سال سابقه کار و فعالیت دندانپزشکی آماده ارائه خدمات زیر به بیماران محترم است : <br />
@@ -96,6 +96,7 @@ $(function(){
 					5556 722 533 98+
 				</div>
 		</div>
+	 <!--*****************************WINDOW ABOUT***********************************-->
 		<div class="window cover" id="window-about">
 			<p class="close">
 				<a onClick="winclose(x)" id="close"></a>
@@ -111,55 +112,48 @@ $(function(){
 			</div>
 			<div class="about-left w7 ml3 left"></div>
 		</div>
+	 <!--*****************************END WINDOW ABOUT***********************************-->
+	 <!--*****************************WINDOW GALLERY***********************************-->
 		<div class="window cover" id="window-galery">
 			<p class="close">
 				<a onClick="winclose(x)" id="close"></a>
 			</p>							
-                <div id="ba1" class="bf left-galery">
+            <div id="ba1" class="bf left-galery">
+            	<div><img src="images/1a.jpg" width="302" height="130" alt="دندان قبل از ترمیم" /></div>
+                <div><img src="images/1b.jpg" width="302" height="130" alt="دندان بعد از ترمیم" /></div>
+            </div>
 
-                     <div><img src="images/1a.jpg" width="302" height="130" alt="دندان قبل از ترمیم" /></div>
-        
-                     <div><img src="images/1b.jpg" width="302" height="130" alt="دندان بعد از ترمیم" /></div>
-        
-                </div>
+            <div id="ba2" class="bf right-galery">
+             	 <div><img src="images/2a.jpg" width="302" height="130" alt="قبل از جرم گیری" /></div>
+                 <div><img src="images/2b.jpg" width="302" height="130" alt="بعد از جرم گیری" /></div>
+            </div>
 
-                <div id="ba2" class="bf right-galery">
-                
-                     <div><img src="images/2a.jpg" width="302" height="130" alt="قبل از جرم گیری" /></div>
-                
-                     <div><img src="images/2b.jpg" width="302" height="130" alt="بعد از جرم گیری" /></div>
-                
-                </div>
-
-                <div id="ba3" class="center-galery mra mla">
-        
-                     <div><img alt="before" src="images/3a.jpg" width="302" height="130" /></div>
-        
-                     <div><img alt="after" src="images/3b.jpg" width="302" height="130" /></div>
-        
-                </div>
-               
-                
+            <div id="ba3" class="center-galery mra mla">
+                 <div><img alt="before" src="images/3a.jpg" width="302" height="130" /></div>
+                 <div><img alt="after" src="images/3b.jpg" width="302" height="130" /></div>
+            </div>
 		</div>
+	 <!--*****************************END WINDOW GALLERY***********************************-->
+	 <!--*****************************WINDOW CONTACT***********************************-->
 		<div class="window cover" id="window-contact">
 			<p class="close">
 				<a onClick="winclose(x)" id="close"></a>
 			</p>
-                	<div class="left-contact w12 left f3">				
+           	<div class="left-contact w12 left f3">				
          				
-						<form name="contact-form" class="contact-form" action="mail.php" method="post">
-							<div class="content">
-								<label>نام:</label><br />
-								<input name="fullName" type="text" class="name-contact" /><br />
-								<label> ایمیل:</label><br />
-								<input name="mail" type="text" class="email-contact" size="31" /><br />
-								<label>پیام:</label><br />
-								<textarea rows="4" cols="30" name="msg" class="textarea"></textarea><br /> <br />                        
-	                            <button type="submit" name="sub" class="ok"></button>
-							</div>
-						</form>
-
-                    </div>			
+				<form name="contact-form" class="contact-form" action="mail.php" method="post">
+					<div class="content">
+						<label>نام:</label><br />
+						<input name="fullName" type="text" class="name-contact" /><br />
+						<label> ایمیل:</label><br />
+						<input name="mail" type="text" class="email-contact" size="31" /><br />
+						<label>پیام:</label><br />
+						<textarea rows="4" cols="30" name="msg" class="textarea"></textarea><br /> <br />                        
+	                     <button type="submit" name="sub" class="ok"></button>
+					</div>
+				</form>
+				
+              </div>			
                     <div class="share-property ml11 f4"> 
 						<h1 class="f4">تماس با دکتر علی رمضانی</h1>
 						آدرس مطب : <br />
@@ -175,11 +169,15 @@ $(function(){
 						</div>
                     </div>
 		</div>
+	 <!--*****************************END WINDOW CONTACT***********************************-->
+	 <!--*****************************WINDOW MAP***********************************-->
 		<div class="window cover" id="window-map">
 			<p class="close">
 				<a onClick="winclose(x)" id="close"></a>
 			</p>	
 		</div>
+	 <!--*****************************END WINDOW MAP***********************************-->
+	 <!--*****************************WINDOW BOYEBAD***********************************-->
 		<div class="window cover" id="window-boyebad">
 			<p class="close">
 				<a onClick="winclose(x)" id="close"></a>
@@ -199,6 +197,8 @@ $(function(){
 			</div>
 			<div class="boyebad-left left"></div>
 		</div>
+	 <!--*****************************END WINDOW BOYEBAD***********************************-->
+	 <!--*****************************WINDOW DARMAN***********************************-->
 		<div class="window cover" id="window-darman">
 			<p class="close">
 				<a onClick="winclose(x)" id="close"></a>
@@ -212,6 +212,8 @@ $(function(){
 			</div>
 			<div class="darman-left left"></div>
 		</div>
+	 <!--*****************************END WINDOW DARMAN***********************************-->
+	 <!--*****************************WINDOW PUSIDEGY***********************************-->
 		<div class="window cover" id="window-pusidegy">
 			<p class="close">
 				<a onClick="winclose(x)" id="close"></a>
@@ -224,6 +226,8 @@ $(function(){
 
 			</div>
 		</div>
+	 <!--*****************************END WINDOW PUSIDEGY***********************************-->
+	 <!--*****************************WINDOW MESVAK***********************************-->
 		<div class="window cover" id="window-mesvak">
 			<p class="close">
 				<a onClick="winclose(x)" id="close"></a>
@@ -239,7 +243,7 @@ $(function(){
 				3- سخت Hard : مخصوص افرادی که لثه های متورم، حجیم و سخت دارند
 			</div>
 			<div class="mesvak-left left">
-			
+			 <!--*****************************BANNER AUTO***********************************-->
 				<div class="banner">
 					<div class="scroll">
 						<div class="adv1"></div>
@@ -260,17 +264,17 @@ $(function(){
 						<li></li>
 					</ul>
 				</div>
-				
 				<div class="next w1" onClick="nextSlide()"></div>
 				<div class="prv w1" onClick="prvSlide()"></div>
 			</div>
+		<!--*****************************END BANNER AUTO***********************************-->
 		</div>
-		
+		 <!--*****************************END WINDOW MESVAK***********************************-->
 	</section>
 	
 </section>
 
-
+<!--*****************************FOOTER***********************************-->
 <footer class="bg-footer change-opacity" id="bg-footer">
 	<div class="footer-content w24 cover">
 	
@@ -287,6 +291,7 @@ $(function(){
 		<div class="copyright w4 f2">2012 © All rights reserved.</div>
 	</div>
 </footer>
+<!--*****************************END FOOTER***********************************-->
 <div class="back-image"></div>
 </body>
 </html>
